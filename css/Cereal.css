@@ -1,0 +1,8 @@
+.product-hero-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/graphic/bg_cereal.png");
+}
+.best-seller hr {
+    margin-bottom: 30px;
+}

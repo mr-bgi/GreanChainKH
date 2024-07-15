@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/costum.css">
+    <link rel="stylesheet" href="../css/News.css">
+    <link rel="stylesheet" href="../css/nationl_news.css">
+    <title>International News Page</title>
+</head>
+
+<body>
+    <a href="#" class="scroll-btn" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <header id="headbar">
+        <div class="container">
+            <div class="nav">
+                <div class="head-logo">
+                    <a href="Homepage.html">
+                        <img src="../img/logo/logo.png" alt="">
+                    </a>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="Homepage.html" class="nav-link">
+                                ទំព័រដើម
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Products-main.html" class="nav-link">
+                                ផលិតផល<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="Real-Time.html">Live Stock</a>
+                                    </li>
+                                    <li>
+                                        <a href="rate.html">អត្រាតម្លៃ</a>
+                                    </li>
+                                    <li>
+                                        <a href="Vegetables.html">កសិកម្ម</a>
+                                        <div class="temp"></div>
+                                        <div class="sub-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href="Cereal.html">គ្រាប់ធុញ្ញជាតិ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Vegetables.html">បន្លែ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Fruit.html">ផ្លែឈើ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="Equipment.html">ក្រុមហ៊ុន</a>
+                                        <div class="temp"></div>
+                                        <div class="sub-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href="fitilizer.html">ជីគីមី</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Equipment.html">គ្រឿងយន្តកសិកម្ម</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Pesticides.html">ថ្នាំកម្ចាត់សត្វល្អិត</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="service.html" class="nav-link">សេវាកម្ម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="education.html" class="nav-link">អប់រំ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="News.html" class="nav-link">
+                                ព័ត៍មាន<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="News_blogs.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="News_national.html">ជាតិ</a>
+                                    </li>
+                                    <li>
+                                        <a href="News_international.html">អន្តរជាតិ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact-us.html" class="nav-link">ទំនាក់ទំនង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">
+                                អំពីយើង<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="our_mission.html">បេសកម្ម</a>
+                                    </li>
+                                    <li>
+                                        <a href="our_project.html">គម្រោង</a>
+                                    </li>
+                                    <li>
+                                        <a href="our_team.html">ក្រុមការងារ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="head-item">
+                    <div class="language">
+                        <a href="#">ខ្មែរ</a>&nbsp;|&nbsp;
+                        <a href="#" style="color: gray;">En</a>
+                    </div>
+                    <i class="fa-solid fa-magnifying-glass" id="minify"></i>
+                    <i class="fa-sharp fa-solid fa-bell" id="notification"></i>
+                    <a href="cart.html">
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <div class="profile" id="profile">
+                        <img src="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar" id="s-bar">
+            <form action="get" class="flex">
+                <input type="search" name="txtsearch" id="h-search" class="head-search"
+                    placeholder="ស្វែងរកនៅទីនេះ ...">
+                <button type="button" class="sign-btn s-btn">ស្វែងរក</button>
+            </form>
+            <div class="back">
+                <i class="fa-regular fa-x" id="cross"></i>
+            </div>
+        </div>
+        <div class="notification-bar" id="noti-bar">
+            <div class="noti-head">
+                <i class="fa-solid fa-arrow-left" id="noti-back"></i>
+                <h2>Notification</h2>
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+            </div>
+            <div class="noti-body">
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/icon/facebook.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Facebook</a> <span>អ្នកបានភ្ជាប់គណនីជាមួយ </span>Saroth Tola
+                        </h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/icon/search.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Google</a> <span>គណនី </span>Saroth Tola
+                            <span>ត្រូវបានបង្កើតនៅថ្ងៃនេះ</span>
+                        </h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/logo-notxt.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">GreenChainKH</a> <span>ស្វាគមន៍មកកាន់សហគមន៍កសិកម្មឌីជីថល </span>
+                            GreenChainKH</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/grab.jpg" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Grab</a> <span>តាមដានទំនិញរបស់លោកអ្នក</span> ឥលូវនេះ</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/logo-notxt.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">GreenChainKH</a> <span>ការបញ្ចុះតម្លៃពិសេស 10% រហូតដល់​
+                            </span>ថ្ងៃទី ២៥ ខែមេសា​ ឆ្នាំ២០២៤</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-bar" id="profile-bar">
+            <div class="profile-head">
+                <div class="profile-img">
+                    <img src="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" alt="">
+                </div>
+                <h2>Saroth Tola</h2>
+                <i class="fa-solid fa-arrow-right" id="exit-user"></i>
+            </div>
+            <div class="profile-body">
+                <ul>
+                    <li>
+                        <a href="user-profile.html"><i class="fa-solid fa-pen-to-square"></i>Edit Profile</a>
+                    </li>
+                    <li>
+                        <a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i>Cart</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-gear"></i>Preference</a>
+                    </li>
+                    <li>
+                        <a href="faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-heart"></i>Favorite</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html"><i class="fa-solid fa-circle-info"></i>Private Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile-footer">
+                <a href="../index.html">
+                    <button type="button" class="sign-out-btn">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Sign out
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero-news">
+            <div class="container flex-center center">
+                <div class="hero-news-container flex gap-5">
+                    <div class="news-slide">
+                        <div class="swiper newSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="../img/news/hero-1.webp" alt="">
+                                    <div class="hero-text slide-from-bottom">
+                                        <span>ចេញផ្សាយថ្ងៃទី​ ០៥​ មេសា​ ២០២៤​​</span>
+                                        <a href="News_detail.html">
+                                            <h2>ឯកឧត្តម ប្រាក់ ដាវីដ រដ្ឋលេខាធិការក្រសួងកសិកម្ម
+                                                អញ្ជើញចូលរួមកិច្ចប្រជុំគណៈកម្មការរួមកម្ពុជា អឺរ៉ុប នៅទីក្រុងប្រុយសែល
+                                                ប្រទេសប៊ែលហ្សិក
+                                                ដើម្បីពិភាក្សាលើរបៀបវារៈពាក់ព័ន្ធនឹងបញ្ហាជាសកល ...</h2>
+                                        </a>
+                                        <p>អង្គប្រជុំបានពិភាក្សាលើករបៀបវារៈមួយចំនួនដូចជា ការអភិវឌ្ឍសេដ្ឋកិច្ច
+                                            និងនយោបាយនៃសហភាពអឺរ៉ុប និងកម្ពុជា,
+                                            ការចាកចេញពីប្រទេសដែលមានការអភិវឌ្ឍតិចតួចរបស់កម្ពុជា, ការធ្វើពាណិជ្ជកម្ម
+                                            និងវិនិយោគ,
+                                            អភិបាលកិច្ច និងសិទ្ធមនុស្ស, ការប្រែលប្រួលអាកាសធាតុ ...</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="../img/news/inter-americ.webp" alt="">
+                                    <div class="hero-text slide-from-bottom">
+                                        <span>ចេញផ្សាយថ្ងៃទី​ ០៥​ មេសា​ ២០២៤​​</span>
+                                        <a href="News_detail.html">
+                                            <h2>ឯកឧត្តម ប្រាក់ ដាវីដ រដ្ឋលេខាធិការក្រសួងកសិកម្ម
+                                                អញ្ជើញចូលរួមកិច្ចប្រជុំគណៈកម្មការរួមកម្ពុជា អឺរ៉ុប នៅទីក្រុងប្រុយសែល
+                                                ប្រទេសប៊ែលហ្សិក
+                                                ដើម្បីពិភាក្សាលើរបៀបវារៈពាក់ព័ន្ធនឹងបញ្ហាជាសកល ...</h2>
+                                        </a>
+                                        <p>អង្គប្រជុំបានពិភាក្សាលើករបៀបវារៈមួយចំនួនដូចជា ការអភិវឌ្ឍសេដ្ឋកិច្ច
+                                            និងនយោបាយនៃសហភាពអឺរ៉ុប និងកម្ពុជា,
+                                            ការចាកចេញពីប្រទេសដែលមានការអភិវឌ្ឍតិចតួចរបស់កម្ពុជា, ការធ្វើពាណិជ្ជកម្ម
+                                            និងវិនិយោគ,
+                                            អភិបាលកិច្ច និងសិទ្ធមនុស្ស, ការប្រែលប្រួលអាកាសធាតុ ...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-item flex-center flex-row gap-5">
+                        <div class="hero-item-wrap-1">
+                            <img src="../img/news/inter-americ.webp" alt="">
+                            <div class="news-txt-box">
+                                <span>ចេញផ្សាយថ្ងៃទី​ ០៥​ មេសា​ ២០២៤​​</span>
+                                <a href="News_detail.html">
+                                    <h2>អាមេរិក​នឹង​ដំឡើង​ពន្ធ​ជី​ផូស្វ័រ​របស់​ម៉ារ៉ុក​ជា​ថ្មី​ម្តង​ទៀត។
+                                        ក្រុមកសិករព្រួយបារម្ភថា ការផ្លាស់ប្តូរនេះនឹងជំរុញឱ្យថ្លៃដើមកើនឡើង
+                                        ដោយសារពួកគេមើលឃើញថា ទិន្នផលទាបសម្រាប់ដំណាំរបស់ពួកគេ។...</h2>
+                                </a>
+                                <p>ក្រុមកសិករបានជំរុញឱ្យមានការពង្រីកការនាំចូលជី
+                                    បន្ទាប់ពីមានការរំខានដល់ខ្សែសង្វាក់ផ្គត់ផ្គង់ក្នុងឆ្នាំ 2021 បានបង្អាក់ការផ្គត់ផ្គង់
+                                    និងបានធ្វើឱ្យតម្លៃកើនឡើង។ ទោះបីជាតម្លៃជីបានធ្លាក់ចុះពីកម្រិតកំពូលក៏ដោយ កសិករនិយាយថា
+                                    ...</p>
+                            </div>
+                        </div>
+                        <div class="hero-item-wrap-2">
+                            <img src="../img/news/inter-system.webp" alt="">
+                            <div class="news-txt-box">
+                                <span>ចេញផ្សាយថ្ងៃទី​ ០៥​ មេសា​ ២០២៤​​</span>
+                                <a href="News_detail.html">
+                                    <h2>កសិដ្ឋានផលិតនឹងត្រូវធ្វើតេស្តទឹកសម្រាប់ការចម្លងរោគនៅក្នុងច្បាប់សុវត្ថិភាពចំណីអាហារដែលបានរង់ចាំជាយូរមកហើយ
+                                        ... </h2>
+                                </a>
+                                <p>កសិករ​ផលិត​នឹង​ត្រូវ​ចាប់​ផ្តើម​ធ្វើ​ការ​វាយ​តម្លៃ​ទឹក​កសិកម្ម
+                                    និង​ចាត់​វិធាន​ការ​កាត់​បន្ថយ​ដើម្បី​ការពារ​បាក់តេរី​បង្ក​គ្រោះថ្នាក់​ ...
+                                </p>
+                            </div>
+                        </div>
+                        <div class="hero-item-wrap-2">
+                            <img src="../img/news/inter-killer.webp" alt="">
+                            <div class="news-txt-box">
+                                <span>ចេញផ្សាយថ្ងៃទី​ ០៥​ មេសា​ ២០២៤​​</span>
+                                <a href="News_detail.html">
+                                    <h2>អ្នកកែច្នៃបសុបក្សីនៅរដ្ឋកាលីហ្វ័រញ៉ានឹងបង់ប្រាក់ជាង 5
+                                        លានដុល្លារដើម្បីដោះស្រាយការចោទប្រកាន់លើការងារបន្ថែមម៉ោង ...</h2>
+                                </a>
+                                <p>ក្នុងដំណើរទស្សនកិច្ចនេះ ឯកឧត្តមបានជួបពិភាក្សា ផ្លាស់ប្តូរបទពិសោធន៍ ជាមួយលោក Fu
+                                    Xuanguo ប្រធានក្រុមប្រឹក្សាសាកល ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="news-body">
+            <section class="national-news">
+                <div class="container">
+                    <div class="row flex-center gap-20">
+                        <div class="col-8">
+                            <div class="sub-news">
+                                <div class="news-cate">ព័ត៍មានថ្មីៗ</div>
+                                <hr>
+                                <div class="sub-news-wrap">
+                                    <div class="row flex-start between gap-10">
+                                        <div class="col-6">
+                                            <div class="news-box-1">
+                                                <div class="news-box-1-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-flat.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-1-txt">
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                    <a href="News_detail.html">
+                                                        <h4>ការ​នាំ​ចេញ​កសិផល​របស់​កម្ពុជា​រក​ចំណូល​បាន​ជិត​៤​ពាន់​លាន​ដុល្លារ​ក្នុង​ខែ​មករា​ដល់​ខែ​វិច្ឆិកា
+                                                        </h4>
+                                                    </a>
+                                                    <h5>
+                                                        របាយការណ៍របស់ក្រសួងកសិកម្ម រុក្ខាប្រមាញ់ និងនេសាទ
+                                                        បានបង្ហាញកាលពីថ្ងៃសុក្រថា ប្រទេសកម្ពុជាបាននាំចេញកសិផលចំនួន ៧,៣
+                                                        លានតោនក្នុងអំឡុងខែមករា ដល់ខែវិច្ឆិកា ក្នុងឆ្នាំនេះ
+                                                        ដោយរកចំណូលបានជិត ៤,២ ពាន់លានដុល្លារ។
+                                                    </h5>
+                                                </div>
+                                                <a href="#">
+                                                    <button type="button" class="see-more">ច្រើនទៀត</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-growth.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>ឯកឧត្តម ប៉ែន ផល្លីកា អនុរដ្ឋលេខាធិការ ក្រសួងកសិកម្ម
+                                                            អញ្ជើញដឹកនាំក្រុមការងារជលផល ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-salmon.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>អ្នក​ជំនាញ​និយាយ​ថា
+                                                            ជំរុញ​ទំនាក់ទំនង​ចិន​ដើម្បី​ធ្វើ​ឱ្យ​កម្ពុជា​ក្លាយ​ជា​មជ្ឈមណ្ឌល​សរសៃប្រសាទ
+                                                            ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-adm.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>កូនផ្សោតកើតថ្មី១ក្បាលនៅអន្លង់កោះផ្តៅ ខេត្តក្រចេះ នាថ្ងៃទី២៥
+                                                            ខែមីនា ឆ្នាំ២០២៤ ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-spray.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5> ក្រុមការងារស្ថិតិ នាយកដ្ឋានរដ្ឋបាល ផែនការ គណនេយ្យ
+                                                            និងសហប្រតិបត្តិការអន្តរជាតិនៃអគ្គនាយកដ្ឋាន ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-food.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>បច្ចេកទេសកសិកម្មឆ្លាតវៃតាមអាកាសធាតុបានបង្កើនប្រាក់ចំណេញដំណាំប្រចាំឆ្នាំរបស់កសិករគោលដៅយ៉ាងច្រើន
+                                                            ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៨ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="follower">
+                                <div class="news-cate">អ្នកតាមដាន</div>
+                                <hr>
+                                <div class="follower-wrapper">
+                                    <div class="flex-center between mb-20">
+                                        <div class="img">
+                                            <img src="../img/icon/facebook.png" alt="">
+                                        </div>
+                                        <div class="txt flex-center between">
+                                            <p>100,000 Fans</p>
+                                            <a href="#">Follow</a>
+                                        </div>
+                                    </div>
+                                    <div class="flex-center between mb-20">
+                                        <div class="img">
+                                            <img src="../img/icon/telegram.png" alt="">
+                                        </div>
+                                        <div class="txt flex-center between">
+                                            <p>100,000 Fans</p>
+                                            <a href="#">Join</a>
+                                        </div>
+                                    </div>
+                                    <div class="flex-center between mb-20">
+                                        <div class="img">
+                                            <img src="../img/icon/youtube.png" alt="">
+                                        </div>
+                                        <div class="txt flex-center between">
+                                            <p>100,000 Fans</p>
+                                            <a href="#">Subscribe</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <div class="ads">
+                                        <img src="../img/products/ads-1.webp" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            </div>
+        </section>
+        <section class="news-body">
+            <section class="national-news">
+                <div class="container">
+                    <div class="row flex-center gap-20">
+                        <div class="col-8">
+                            <div class="sub-news">
+                                <div class="news-cate">ពេញនិយម</div>
+                                <hr>
+                                <div class="sub-news-wrap">
+                                    <div class="row flex-start between gap-10">
+                                        <div class="col-6">
+                                            <div class="news-box-1">
+                                                <div class="news-box-1-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/news-banana.jpg" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-1-txt">
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                    <a href="News_detail.html">
+                                                        <h4>ផលិតផល​កសិកម្ម​នាំ​ចេញ​ចំណូល​បាន ២,៤ ពាន់​លាន​ដុល្លារ</h4>
+                                                    </a>
+                                                    <h5>
+                                                        កម្ពុជាបាននាំចេញកសិផលចំនួន 3.9 លានតោនក្នុងឆមាសទីមួយនៃឆ្នាំ 2023
+                                                        ដែលរកចំណូលបាន 2.4 ពាន់លានដុល្លារ
+                                                        នេះបើយោងតាមរបាយការណ៍ពីក្រសួងកសិកម្ម រុក្ខាប្រមាញ់ និងនេសាទ
+                                                        (MAFF) កាលពីម្សិលមិញ។
+                                                    </h5>
+                                                </div>
+                                                <a href="#">
+                                                    <button type="button" class="see-more">ច្រើនទៀត</button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-news-2.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>កិច្ចព្រមព្រៀងបៃតងអឺរ៉ុបអាចប្រឈមនឹង "ការវាយប្រហារ"
+                                                            ពីអ្នកនយោបាយស្តាំនិយម MEPs ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-news-3.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>តើកសិដ្ឋានសរីរាង្គបង្កគ្រោះថ្នាក់ដោយអចេតនាឬ?
+                                                            ការ​សិក្សា​រក​ឃើញ​ថា ការ​ប្រើ​ថ្នាំ​សម្លាប់​សត្វ​ល្អិត ...
+                                                        </h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-news-4.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>បម្រែបម្រួលអាកាសធាតុអាចបង្កើនកំដៅលើអតិផរណា
+                                                            នេះបើយោងតាមរបាយការណ៍ ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-news-5.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>ការប្រែប្រួលអាកាសធាតុកំពុងបង្កើត "ស្រាក្រឡុក"
+                                                            នៃគ្រោះថ្នាក់សុខភាពសម្រាប់កម្មករ 2.4 ពាន់លាននាក់ ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                            <div class="news-box-2 flex">
+                                                <div class="news-box-2-img">
+                                                    <a href="News_detail.html">
+                                                        <img src="../img/news/inter-news-6.webp" alt="">
+                                                    </a>
+                                                </div>
+                                                <div class="news-box-2-txt">
+                                                    <a href="News_detail.html">
+                                                        <h5>តើបម្រែបម្រួលអាកាសធាតុអាចផ្តល់ជំងឺភ្នែកឡើងបាយដល់សត្វភេនឃ្វីនទេ?
+                                                            អ្នកវិទ្យាសាស្ត្រស៊ើបអង្កេត ...</h5>
+                                                    </a>
+                                                    <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="follower">
+                                <div class="news-cate">Blog</div>
+                                <hr>
+                                <div>
+                                    <div class="news-box-2 flex">
+                                        <div class="news-box-2-img">
+                                            <a href="News_detail.html">
+                                                <img src="../img/news/blog-1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="news-box-2-txt">
+                                            <a href="News_detail.html">
+                                                <h5>ដើមចេក - ដើមឈើដ៏អស្ចារ្យមួយប្រភេទ! ...</h5>
+                                            </a>
+                                            <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                        </div>
+                                    </div>
+                                    <div class="news-box-2 flex">
+                                        <div class="news-box-2-img">
+                                            <a href="News_detail.html">
+                                                <img src="../img/news/blog-2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="news-box-2-txt">
+                                            <a href="News_detail.html">
+                                                <h5>កសិដ្ឋានម្រេចកំពត នី អាន ម្រេចនឹងធ្វើឲ្យអ្នកភ្ញាក់ផ្អើល! ...</h5>
+                                            </a>
+                                            <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                        </div>
+                                    </div>
+                                    <div class="news-box-2 flex">
+                                        <div class="news-box-2-img">
+                                            <a href="News_detail.html">
+                                                <img src="../img/news/blog-3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="news-box-2-txt">
+                                            <a href="News_detail.html">
+                                                <h5>តើអ្នកអាចដាំ Asparagus នៅតំបន់ត្រូពិចបានទេ? ភ្ញាក់ផ្អើលមែន! ...</h5>
+                                            </a>
+                                            <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                        </div>
+                                    </div>
+                                    <div class="news-box-2 flex">
+                                        <div class="news-box-2-img">
+                                            <a href="News_detail.html">
+                                                <img src="../img/news/blog-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="news-box-2-txt">
+                                            <a href="News_detail.html">
+                                                <h5>តើម្រេចល្អសម្រាប់អ្នកទេ? វាជាប្រធានបទដ៏ក្តៅគគុក! ...</h5>
+                                            </a>
+                                            <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                        </div>
+                                    </div>
+                                    <div class="news-box-2 flex">
+                                        <div class="news-box-2-img">
+                                            <a href="News_detail.html">
+                                                <img src="../img/news/blog-5.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="news-box-2-txt">
+                                            <a href="News_detail.html">
+                                                <h5>ដើមឈើហូបផ្លែត្រូពិច - ដើមឈើ ៥ ប្រភេទដែលនឹងធ្វើឱ្យអ្នករំជួលចិត្ត! ...
+                                                </h5>
+                                            </a>
+                                            <p>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#">
+                                    <button type="button" class="see-more">ច្រើនទៀត</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            </div>
+        </section>
+        <section class="news-more">
+            <div class="container">
+                <div class="row flex">
+                    <div class="col-8">
+                        <div class="news-cate">ច្រើនទៀត</div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="news-more-big">
+                                    <div class="news-more-big-img">
+                                        <img src="../img/news/inter-eu.webp" alt="">
+                                    </div>
+                                    <div class="news-more-big-txt">
+                                        <a href="../pages/News_detail.html">
+                                            <h2> សហភាពអឺរ៉ុបពន្យារពេលតម្រូវការរាយការណ៍អំពីនិរន្តរភាពសម្រាប់អាហារ​ ទៅកាន់បណ្តាប្រទេសនានានៅលើពិភពលោក...
+                                            </h2>
+                                        </a>
+                                        <p>
+                                            ឧស្សាហកម្មរួមទាំងកសិកម្មនឹងមានពេលវេលាបន្ថែមទៀតដើម្បីផ្តោតលើការអនុវត្តច្បាប់បង្ហាញឱ្យឃើញកាន់តែទូលំទូលាយមុនពេលពួកគេចាប់ផ្តើមសង្កេតមើលស្តង់ដារជាក់លាក់នៃវិស័យ។...
+
+                                        </p>
+                                        <span>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 news-more-small">
+                                <div class="row flex">
+                                    <div class="col-4">
+                                        <div class="new-more-small-img">
+
+                                            <img src="../img/news/inter-girl.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="new-more-small-txt">
+                                            <a href="News_detail.html">
+                                                <h5> ក្រុមការងារស្ថិតិ នាយកដ្ឋានរដ្ឋបាល ផែនការ គណនេយ្យ
+                                                    និងសហប្រតិបត្តិការអន្តរជាតិនៃអគ្គនាយកដ្ឋាន ...</h5>
+                                            </a>
+                                            <p>
+                                                អង្គប្រជុំបានពិភាក្សាលើករបៀបវារៈមួយចំនួនដូចជា ការអភិវឌ្ឍសេដ្ឋកិច្ច
+                                                និងនយោបាយនៃសហភាពអឺរ៉ុប និងកម្ពុជា, ការចាកចេញពីប្រទេស...
+                                            </p>
+                                            <span>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 news-more-small">
+                                <div class="row flex">
+                                    <div class="col-4">
+                                        <div class="new-more-small-img">
+
+                                            <img src="../img/news/inter-flower.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="new-more-small-txt">
+                                            <a href="News_detail.html">
+                                                <h5> ក្រុមការងារស្ថិតិ នាយកដ្ឋានរដ្ឋបាល ផែនការ គណនេយ្យ
+                                                    និងសហប្រតិបត្តិការអន្តរជាតិនៃអគ្គនាយកដ្ឋាន ...</h5>
+                                            </a>
+                                            <p>
+                                                អង្គប្រជុំបានពិភាក្សាលើករបៀបវារៈមួយចំនួនដូចជា ការអភិវឌ្ឍសេដ្ឋកិច្ច
+                                                និងនយោបាយនៃសហភាពអឺរ៉ុប និងកម្ពុជា, ការចាកចេញពីប្រទេស...
+                                            </p>
+                                            <span>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 news-more-small">
+                                <div class="row flex">
+                                    <div class="col-4">
+                                        <div class="new-more-small-img">
+
+                                            <img src="../img/news/inter-harvest.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="new-more-small-txt">
+                                            <a href="News_detail.html">
+                                                <h5> ក្រុមការងារស្ថិតិ នាយកដ្ឋានរដ្ឋបាល ផែនការ គណនេយ្យ
+                                                    និងសហប្រតិបត្តិការអន្តរជាតិនៃអគ្គនាយកដ្ឋាន ...</h5>
+                                            </a>
+                                            <p>
+                                                អង្គប្រជុំបានពិភាក្សាលើករបៀបវារៈមួយចំនួនដូចជា ការអភិវឌ្ឍសេដ្ឋកិច្ច
+                                                និងនយោបាយនៃសហភាពអឺរ៉ុប និងកម្ពុជា, ការចាកចេញពីប្រទេស...
+                                            </p>
+                                            <span>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 news-more-small">
+                                <div class="row flex">
+                                    <div class="col-4">
+                                        <div class="new-more-small-img">
+
+                                            <img src="../img/news/inter-defend.webp" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="new-more-small-txt">
+                                            <a href="News_detail.html">
+                                                <h5> ក្រុមការងារស្ថិតិ នាយកដ្ឋានរដ្ឋបាល ផែនការ គណនេយ្យ
+                                                    និងសហប្រតិបត្តិការអន្តរជាតិនៃអគ្គនាយកដ្ឋាន ...</h5>
+                                            </a>
+                                            <p>
+                                                អង្គប្រជុំបានពិភាក្សាលើករបៀបវារៈមួយចំនួនដូចជា ការអភិវឌ្ឍសេដ្ឋកិច្ច
+                                                និងនយោបាយនៃសហភាពអឺរ៉ុប និងកម្ពុជា, ការចាកចេញពីប្រទេស...
+                                            </p>
+                                            <span>ចេញ​ផ្សាយ​ ២៥ មេសា ២០២៤</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="stick-ads">
+                            <img src="../img/products/ads-1.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="newsletter">
+            <div class="container flex-center center">
+                <div>
+                    <h1>ចុះឈ្មោះសម្រាប់ព្រឹត្តិបត្រព័ត៌មាន</h1>
+                    <form action="#newsletter-pop" class="subscribe">
+                        <input type="email" name="txtEmail" id="newsletter-id" placeholder="Email address"><br>
+                        <button type="button" class="sign-btn" id="newsletter">Subsribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="newsletter-popup" id="newsletter-pop">
+                <div class="cancel-popup" id="no-newletter">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="popup-img">
+                    <img src="../img/icon/newsletter.gif" alt="">
+                </div>
+                <div class="popup-txt">
+                    <h1>សូមស្វាគមន៍មកកាន់សហគមន៍ឌីជីថល <span>GreenChainKH</span></h1>
+                    <p>ចុចប៉ូតុងខាងក្រោមដើម្បីពីនិតមើលប្រអប់សារ</p>
+                    <a href="Homepage.html">
+                        <button type="button" class="btn-back">ចុចទីនេះ</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="quick-link">
+            <div class="container flex-center">
+                <div class="logo-map">
+                    <div class="logo">
+                        <img src="../img/logo/logo.png" alt="">
+                    </div>
+                    <h2>"ដាំដុះអនាគតបៃតងនៃប្រទេសកម្ពុជា"</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15635.736262865381!2d104.88048969786963!3d11.556584482146718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951001c8a7b55%3A0xa95ff42ea192073c!2sANT%20Technology%20Training%20School%202!5e0!3m2!1sen!2skh!4v1714064657449!5m2!1sen!2skh"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="link">
+                    <div class="flex">
+                        <ul>
+                            <p>ក្រុមហ៊ុន</p>
+                            <li><a href="Homepage.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ទំព័រដើម</a></li>
+                            <li><a href="Products-main.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ផលិតផល</a>
+                            </li>
+                            <li><a href="service.html"><i class="fa-solid fa-caret-right"></i>&nbsp;សេវាកម្ម</a></li>
+                            <li><a href="contact-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ជំនួយ</a></li>
+                        </ul>
+                        <ul>
+                            <p>អប់រំ & ព័ត៍មាន</p>
+                            <li><a href="News_blogs.html"><i class="fa-solid fa-caret-right"></i>&nbsp;Blog</a></li>
+                            <li><a href="News_national.html"><i
+                                        class="fa-solid fa-caret-right"></i>&nbsp;ព័ត៍មានជាតិ</a></li>
+                            <li><a href="News_international.html"><i
+                                        class="fa-solid fa-caret-right"></i>&nbsp;ព័ត៍មានអន្តរជាតិ</a></li>
+                            <li><a href="education.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ប្រភពឯកសារ</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <p>ប្រភេទ</p>
+                            <li><a href="Vegetables.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ដំណាំកសិកម្ម</a>
+                            </li>
+                            <li><a href="Equipment.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ឧបករណ៍កសិកម្ម</a>
+                            </li>
+                            <li><a href="fitilizer.html"><i
+                                        class="fa-solid fa-caret-right"></i>&nbsp;ជីប្រើប្រាស់លើដំណាំ</a></li>
+                            <li><a href="Pesticides.html"><i
+                                        class="fa-solid fa-caret-right"></i>&nbsp;ថ្នាំកម្ចាត់សត្វល្អិត</a></li>
+                        </ul>
+                        <ul>
+                            <p>Useful Link</p>
+                            <li><a href="cart.html"><i class="fa-solid fa-caret-right"></i>&nbsp;កន្ត្រក</a></li>
+                            <li><a href="about-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;អំពីយើង</a></li>
+                            <li><a href="contact-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ទំនាក់ទំនង</a>
+                            </li>
+                            <li><a href="faq.html"><i class="fa-solid fa-caret-right"></i>&nbsp;FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-center center gap-20">
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/search.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/facebook.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/telegram.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/twitter.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/youtube.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <p>Copyright GreenChainKH © 2024. All rights reserved</p>
+        </section>
+    </footer>
+    <script src="../js/head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+
+</html>

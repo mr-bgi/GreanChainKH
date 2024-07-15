@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* =========Hero Banner=============== */
+
+.hero-banner {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 110px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-banner .hero-background {
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    z-index: -1;
+}
+
+.hero-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content .hero-text {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-content .hero-text .btn a {
+    color: #38302be3;
+    font-weight: bold;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 17px;
+    /* color: white; */
+}
+
+.hero-content .hero-text .btn {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    border: 2px solid #6EA800;
+    z-index: 1;
+}
+
+.btn::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #6EA800;
+    top: 100%;
+    left: 0%;
+    z-index: -1;
+    transition: 0.3s;
+}
+
+.hero-content .hero-text .btn a {
+    padding: 15px 25px;
+    color: black;
+    /* background-color: red; */
+}
+
+.hero-content .hero-text .btn a {
+    padding: 15px 20px;
+    color: black;
+    /* background-color: red; */
+}
+
+.btn:hover::before {
+    top: 0;
+}
+
+.btn:hover a {
+    color: white;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 70px;
+    color: #633e20e5;
+    padding: 40px;
+}
+
+.hero-text span a {
+    color: #38302be3;
+    text-decoration: none;
+}
+
+.hero-text span .active {
+    color: #6EA800;
+    text-decoration: none;
+}
+
+/* ------------Our-mission----------- */
+
+.col-4 {
+    width: 35%;
+    height: 100%;
+}
+
+.col-6 {
+    width: 50%;
+    height: 100%;
+}
+
+.col-8 {
+    width: 60%;
+    height: 100%;
+}
+
+.mission-content-wrapper {
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 170px;
+}
+
+.our-mission-img {
+    width: 100%;
+    height: 100%;
+}
+
+.our-mission-img .img-1 {
+    width: 580px;
+    position: relative;
+}
+
+.our-mission-img .img-2 {
+    width: 300px;
+    position: absolute;
+    top: 140%;
+    left: 70%;
+}
+
+.mission-intro h1 {
+    font-size: 35px;
+    text-align: right;
+}
+
+.mission-intro h1 span {
+    color: #82c605;
+    font-size: 40px;
+}
+
+.mission-intro p {
+    color: #82c605;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.our-mission-paragraph-wrapper .col-6 {
+    width: 49.58%;
+}
+
+.our-mission-paragraph-wrapper .col-6 img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: -9px;
+}
+
+.our-mission-paragraph-wrapper .col-6 p {
+    padding: 0 40px;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.our-mission-paragraph-wrapper .col-6 h1 {
+    padding: 10px 40px;
+    font-size: 35px;
+    color: #82c605;
+}
+
+.our-mission-paragraph {
+    background-color: white;
+}
+
+.achievement {
+    width: 100%;
+    height: 450px;
+    background-image: url("../img/our-mission/section-bg.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.achievement-fluid {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* padding-top: 150px; */
+}
+
+.achievement-fluid h1 {
+    width: 100%;
+    padding-top: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.achievement-fluid .achievement-img-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.achievement-fluid .achievement-img-wrapper {
+    margin-top: 40px;
+}
+
+.achievement-fluid .achievement-img-wrapper img {
+    width: 30%;
+}

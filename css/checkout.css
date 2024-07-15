@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+.container {
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* =========Hero Banner=============== */
+
+.hero-banner{
+    width: 100%;
+    height: 65vh;
+    margin-bottom: 110px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-banner .hero-background{
+    width: 100%;
+    position: absolute;
+    top: -15%;
+    z-index: -1;
+}
+
+.hero-content{
+    width: 100%;
+    height: auto;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content .hero-text{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-content .hero-text .btn a{
+    color: #38302be3;
+    font-weight: bold;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 17px;
+    /* color: white; */
+}
+
+.hero-content .hero-text .btn{
+    width: 120px;
+    height: 50px;
+    position: relative;
+    border: 2px solid #6EA800;
+    z-index: 1;
+}
+
+.hero-content .hero-text .btn a{
+    padding: 15px 35px;
+    color: black;
+}
+
+.btn::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #6EA800;
+    color: black;
+    top: 100%;
+    left: 0%;
+    z-index: -1;
+    transition: 0.3s;    
+}
+
+.btn:hover::before{
+    top: 0;
+    color: white;
+}
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1{
+    font-size: 70px;
+    color: #38302be3;
+    padding: 40px;
+
+}
+
+.hero-text span a{
+    color: #38302be3;
+    text-decoration: none;
+}
+
+.hero-text span .active{
+    color: #6EA800;
+    text-decoration: none;
+}
+
+/*  -----billing detali-----  */
+.billing{
+    width: 100%;
+    height: auto;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.billing-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.billing-wrapper .col-4{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.billing-form{
+    padding: 50px;
+}
+
+.billing-form-wrapper h1{
+    font-size: 30px;
+    color: #38302bae;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.col-4{
+    width: 33%;
+    height: 100%;
+    background-color: #f7f7f7;
+    padding: 50px;
+    position: relative;
+}
+
+.col-8{
+    width: 60%;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+.cart-order-wrapper h1{
+    color: #38302bae;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+/* .cart-table .cart-item .product-name{
+    padding-right: 90px;    
+}
+
+.cart-table .cart-item .product-name a{
+    color: #38302bae;
+    font-weight: bold;
+} */
+
+.cart-order-wrapper .cart-item{
+    width: 100%;
+    height: 60px;
+    background-color: #6da8005b;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px  rgba(128, 128, 128, 0.541);
+    display: flex;
+    align-items: center;
+}
+
+.cart-order-wrapper .cart-item .cart-item-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.cart-order-wrapper .cart-item .cart-item-img .product-img{
+    width: 50px;
+}
+
+.cart-order-wrapper .cart-item .cart-item-price span{
+    padding-left: 10px;
+}
+
+.cart-order-wrapper .cart-item .cart-item-price .product-price{
+    padding-left: 35px;
+}
+
+.cart-order-wrapper .cart-item .exit{
+    font-size: 10px;
+    position: absolute;
+    font-weight: bolder;
+    padding: 3px 7px;
+    border-radius: 100%;
+    background-color: rgba(255, 0, 0, 0.693);
+    right: 5%;
+    top: 145px;
+}
+
+.cart-order-wrapper .cart-item .exit a{
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.cart-order-wrapper .cart-total{
+    border-bottom: 3px solid #6EA800;
+    padding-bottom: 10px;
+}
+
+.cart-order-wrapper .cart-total .total-price{
+    padding-bottom: 120px;
+    color: #6EA800;
+    font-weight: bolder;
+}
+
+.term-and-conditon-wrapper .notice{
+    margin: 30px 0;
+    border-left: 3px solid #6EA800 ;
+}
+.term-and-conditon-wrapper .notice p{
+    color: #38302bae;
+    padding-left: 15px;
+}
+
+.checkbox-control span a{
+    color: #6EA800;
+}
+
+.term-and-conditon-wrapper .privacy-policy p{
+    margin-bottom: 30px;
+}
+
+.term-and-conditon-wrapper .privacy-policy p a{
+    color: #6EA800;
+}
+
+.form-button{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.btn-primary{
+    width: 155px;
+    height: 42px;
+    font-family: "Kantumruy Pro", sans-serif;
+    border-radius: 5px;
+    color: #38302be3;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    border: 1px solid #6EA800;
+    z-index: 1;
+}
+
+.btn-primary::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #6da80091;
+    top: 100%;
+    left: 0%;
+    z-index: -1;
+    transition: 0.3s; 
+}
+
+.btn-primary:hover::before,a{
+    top: 0;
+    color: white;
+}
+
+
+
+.layout-img{
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    right: -70px;
+}
+
+.form-control{
+    width: 618px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0 20px;
+    font-size: 17px;
+    font-family: "Kantumruy Pro", sans-serif;
+    color: #38302bae;
+}
+
+.form-control:focus, .textarea-control:focus{
+    outline: 1px solid #38302b57;
+}
+
+
+input::placeholder{
+    font-size: 17px;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+option{
+    font-size: 17px;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.textarea-control{
+    border: none;
+    padding: 20px 0 20px 20px;
+    font-size: 17px;
+    font-family: "Kantumruy Pro", sans-serif;
+    color: #38302bae;
+}
+
+.form-group h1{
+    padding: 20px 0; 
+}
+
+.form-control-radio-button input{
+    margin-bottom: 20px;
+    transform: scale(1.3);
+}
+
+.expiration-date label{
+    color: #38302bae;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.form-control-exp-date{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 0 20px;
+    font-size: 17px;
+    font-family: "Kantumruy Pro", sans-serif;
+    color: #38302bae;
+}
+
+.form-control-exp-date:focus{
+    outline: 1px solid #38302b57;
+}

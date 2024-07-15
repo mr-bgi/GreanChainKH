@@ -1,0 +1,2244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/costum.css">
+    <link rel="stylesheet" href="../css/Products.css">
+    <link rel="stylesheet" href="../css/Cereal.css">
+    <link rel="stylesheet" href="../css/Vegetables.css">
+    <title>Vegetables Page</title>
+</head>
+
+<body>
+    <a href="#" class="scroll-btn" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <header id="headbar">
+        <div class="container" data-aos="fade-left" data-aos-duration="1500">
+            <div class="nav">
+                <div class="head-logo">
+                    <a href="Homepage.html">
+                        <img src="../img/logo/logo.png" alt="">
+                    </a>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="Homepage.html" class="nav-link">
+                                ទំព័រដើម
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Products-main.html" class="nav-link">
+                                ផលិតផល<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="Real-Time.html">Live Stock</a>
+                                    </li>
+                                    <li>
+                                        <a href="rate.html">អត្រាតម្លៃ</a>
+                                    </li>
+                                    <li>
+                                        <a href="Vegetables.html">កសិកម្ម</a>
+                                        <div class="temp"></div>
+                                        <div class="sub-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href="Cereal.html">គ្រាប់ធុញ្ញជាតិ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Vegetables.html">បន្លែ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Fruit.html">ផ្លែឈើ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="Equipment.html">ក្រុមហ៊ុន</a>
+                                        <div class="temp"></div>
+                                        <div class="sub-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href="fitilizer.html">ជីគីមី</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Equipment.html">គ្រឿងយន្តកសិកម្ម</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Pesticides.html">ថ្នាំកម្ចាត់សត្វល្អិត</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="service.html" class="nav-link">សេវាកម្ម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="education.html" class="nav-link">អប់រំ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="News.html" class="nav-link">
+                                ព័ត៍មាន<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="News_blogs.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="News_national.html">ជាតិ</a>
+                                    </li>
+                                    <li>
+                                        <a href="News_international.html">អន្តរជាតិ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact-us.html" class="nav-link">ទំនាក់ទំនង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">
+                                អំពីយើង<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="our_mission.html">បេសកម្ម</a>
+                                    </li>
+                                    <li>
+                                        <a href="our_project.html">គម្រោង</a>
+                                    </li>
+                                    <li>
+                                        <a href="our_team.html">ក្រុមការងារ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="head-item">
+                    <div class="language">
+                        <a href="#">ខ្មែរ</a>&nbsp;|&nbsp;
+                        <a href="#" style="color: gray;">En</a>
+                    </div>
+                    <i class="fa-solid fa-magnifying-glass" id="minify"></i>
+                    <i class="fa-sharp fa-solid fa-bell" id="notification"></i>
+                    <a href="cart.html">
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <div class="profile" id="profile">
+                        <img src="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar" id="s-bar">
+            <form action="get" class="flex">
+                <input type="search" name="txtsearch" id="h-search" class="head-search"
+                    placeholder="ស្វែងរកនៅទីនេះ ...">
+                <button type="button" class="sign-btn s-btn">ស្វែងរក</button>
+            </form>
+            <div class="back">
+                <i class="fa-regular fa-x" id="cross"></i>
+            </div>
+        </div>
+        <div class="notification-bar" id="noti-bar">
+            <div class="noti-head">
+                <i class="fa-solid fa-arrow-left" id="noti-back"></i>
+                <h2>Notification</h2>
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+            </div>
+            <div class="noti-body">
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/icon/facebook.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Facebook</a> <span>អ្នកបានភ្ជាប់គណនីជាមួយ </span>Saroth Tola
+                        </h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/icon/search.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Google</a> <span>គណនី </span>Saroth Tola
+                            <span>ត្រូវបានបង្កើតនៅថ្ងៃនេះ</span></h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/logo-notxt.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">GreenChainKH</a> <span>ស្វាគមន៍មកកាន់សហគមន៍កសិកម្មឌីជីថល </span>
+                            GreenChainKH</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/grab.jpg" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Grab</a> <span>តាមដានទំនិញរបស់លោកអ្នក</span> ឥលូវនេះ</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/logo-notxt.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">GreenChainKH</a> <span>ការបញ្ចុះតម្លៃពិសេស 10% រហូតដល់​
+                            </span>ថ្ងៃទី ២៥ ខែមេសា​ ឆ្នាំ២០២៤</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-bar" id="profile-bar">
+            <div class="profile-head">
+                <div class="profile-img">
+                    <img src="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" alt="">
+                </div>
+                <h2>Saroth Tola</h2>
+                <i class="fa-solid fa-arrow-right" id="exit-user"></i>
+            </div>
+            <div class="profile-body">
+                <ul>
+                    <li>
+                        <a href="user-profile.html"><i class="fa-solid fa-pen-to-square"></i>Edit Profile</a>
+                    </li>
+                    <li>
+                        <a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i>Cart</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-gear"></i>Preference</a>
+                    </li>
+                    <li>
+                        <a href="faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-heart"></i>Favorite</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html"><i class="fa-solid fa-circle-info"></i>Private Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile-footer">
+                <a href="../index.html">
+                    <button type="button" class="sign-out-btn">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Sign out
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="product-hero-banner">
+            <div class="container flex-center center">
+                <div class="hero-content" data-aos="fade-down" data-aos-duration="1500">
+                    <p>
+                        <a href="Homepage.html">ទំព័រដើម</a>&nbsp;/&nbsp;
+                        <a href="#"><span>ផលិតផល</span></a>
+                    </p>
+                    <h1>បន្លែ</h1>
+                    <a href="#">
+                        <button type="button" class="hero-btn">ទិញឥឡូវនេះ</button>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+        <section class="vocher">
+            <h1 data-aos="fade-left" data-aos-duration="1500">ការផ្តល់ជូនពិសេស %</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="vocher-card" data-aos="fade-down" data-aos-duration="1500">
+                            <img src="../img/graphic/vocher-cereal.png" alt="">
+                            <div class="vocher-left">
+                                <div>
+                                    <p>គូប៉ុង: LLTGC2024</p>
+                                    <h2>បញ្ចុះតម្លៃ​ <span>30%</span></h2>
+                                    <a href="#">
+                                        <button type="button" class="but-now-btn">ទិញឥឡូវនេះ</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="vocher-card" data-aos="fade-down" data-aos-duration="1500">
+                            <img src="../img/graphic/vocher1.png" alt="">
+                            <div class="vocher-right">
+                                <div>
+                                    <p>ចាប់ពីថ្ងៃនេះ រហូតដល់ ថ្ងៃទី 20 ខែមិថុនា</p>
+                                    <h2><span>Promotion</span> ពិសេស</h2>
+                                    <a href="#">
+                                        <button type="button" class="but-now-btn">ទិញឥឡូវនេះ</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best-seller">
+            <div class="container">
+                <h1 data-aos="fade-right" data-aos-duration="1500">ផលិតផលលក់ដាច់</h1>
+                <hr>
+                <div class="swiper mySwiper" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/big-pepper.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ម្ទេសប្លោក</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/corn.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ពោត</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/bitter-melon.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ផ្លែម្រះ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/bocolli-npBG.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ផ្កាខាត់ណា</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/Bokor.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ស្ពៃបូកគោ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/Chaisim.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ស្ពៃឆៃស៊ីម</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/pumpkin.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ផ្លែល្ពៅ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/salad.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>សាឡាត់</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/potatoes.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ដំឡូងជ្វា</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/Trakoun.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ត្រកួន</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/carrot.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>មើមការ៉ុត</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/cucumber.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ផ្លែត្រសក់</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <section class="best-seller">
+            <div class="container">
+                <h1 data-aos="fade-right" data-aos-duration="1500">ការបញ្ចុះតម្លៃ</h1>
+                <hr>
+                <div class="swiper mySwiper" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/Luffa.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ផ្លែននោង</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/mushroom-1.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ផ្សិតអំបោះ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/short-bean.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>សណ្តែកបណ្តុះ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/French_corn.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ពោតបារាំង</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/chili.png alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ម្ទេស</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/egg-plants.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ត្រប់វែង</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/long-bean.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>សណ្តែកកួរ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/Cauliflower.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ផ្កាខាត់ណា</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/Popeay.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ផ្លែពពាយ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/salad.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>សាឡាត់</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/Khatna.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ស្ពៃខាត់ណា</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="../pages/AgriProduct_Detail.html">
+                                                <img src="../img/products/vegetables/Chaisim.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <h2>ស្ពៃឆៃស៊ីម</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+        <section class="feature-pro">
+            <div class="container">
+                <h1 data-aos="fade-left" data-aos-duration="1500">-- បន្លែគ្រប់មុខ --</h1>
+                <div>
+                    <div class="swiper swiper-feature-pro" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/Cauliflower.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ផ្កាខាត់ណា</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <div class="new">New</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/Bokor.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ស្ពៃបូកគោ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/Luffa.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ផ្លែននោង</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <div class="new">New</div>
+                                            <!-- <div class="off">-9%</div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/short-bean.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>សណ្តែកបណ្តុះ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/egg-plants.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ត្រប់វែង</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/salad.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>សាឡាត់</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/tomato-npBG.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ផ្លែប៉េងប៉ោះ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/cucumber.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ផ្លែត្រសក់</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/carrot.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>មើមការ៉ុត</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <div class="new">New</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/white-onion.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>មើមខ្ទឹមស</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/Trapeang.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ទំពាំផ្អែម</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <div class="new">New</div>
+                                            <!-- <div class="off">-9%</div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/Trakoun.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ត្រកួន</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/slekrei.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ស្លឹកគ្រៃ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/slekroch.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ស្លឹកក្រូច</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/pumpkin.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ផ្លែល្ពៅ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/big-pepper.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ម្ទេសប្លោក</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/potatoes.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ដំឡូងជ្វា</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <div class="new">New</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/Popeay.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ផ្លែពពាយ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/long-bean.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>សណ្តែកកួរ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <div class="new">New</div>
+                                            <!-- <div class="off">-9%</div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/lemon.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ផ្លែក្រូចឆ្មារ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/Khatna.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ស្ពៃខាត់ណា</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/chili.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ម្ទេស</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/corn.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ពោត</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="product-card">
+                                            <div class="card-img">
+                                                <a href="../pages/AgriProduct_Detail.html">
+                                                    <img src="../img/products/vegetables/bitter-melon.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="pro-card-detail">
+                                                <div class="card-detail-text">
+                                                    <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                        <h2>ផ្លែម្រះ</h2>
+                                                    </a>
+                                                    <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                    <div class="number-control">
+                                                        <div class="number-left"></div>
+                                                        <input type="number" name="number" class="number-quantity"
+                                                            min="1" placeholder="1 kg">
+                                                        <div class="number-right"></div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pro-item">
+                                                <i class="fa-regular fa-heart" id="fav"></i>
+                                                <a href="../pages/AgriProduct_Detail.html" class="black">
+                                                    <i class="fa-solid fa-circle-info"></i>
+                                                </a>
+                                                <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                            </div>
+
+                                            <!-- <div class="new">New</div> -->
+                                            <div class="off">-9%</div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="decore">
+            <div class="container-fluid flex">
+                <div class="decore-bg-1">
+                    <img src="../img/graphic/decore-bg-1.png" alt="" data-aos="fade-right" data-aos-duration="1500">
+                </div>
+                <div class="decore-bg-2">
+                    <h1 data-aos="fade-down" data-aos-duration="1500">GreenChain Shop</h1>
+                    <!-- <img src="../img/graphic/vegetables-noBG3.png" alt=""> -->
+                </div>
+                <div class="decore-bg-1">
+                    <img src="../img/graphic/decore-bg-3.png" alt="" data-aos="fade-left" data-aos-duration="1500">
+                </div>
+            </div>
+        </section>
+        <section class="about-pro">
+            <div class="container">
+                <h1 data-aos="fade-left" data-aos-duration="1500">GreenChain Shop</h1>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="box" data-aos="fade-right" data-aos-duration="1500">
+                            <div class="box-right">
+                                <h5>ធម្មជាតិ 100%</h5>
+                                <p>ផលិតផលដំណាំសរីរាង្គមកពីតាមបណ្តាចម្ការកសិដ្ឋានានារបស់ប្រជាកសិករខ្មែរ</p>
+                            </div>
+                            <div class="box-icon">
+                                <img src="../img/icon/heartbeat.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box" data-aos="fade-right" data-aos-duration="1500">
+                            <div class="box-right">
+                                <h5>គុណភាពផលិតផល</h5>
+                                <p>ផលិតផលមានគុណភាពស្របតាមស្តង់ដាអន្តរជាតិ មានយីហោត្រឹមត្រូវច្បាស់លាស់</p>
+                            </div>
+                            <div class="box-icon">
+                                <img src="../img/icon/brand-image.png" alt="">
+                            </div>
+                        </div>
+                        <div class="box" data-aos="fade-right" data-aos-duration="1500">
+                            <div class="box-right">
+                                <h5>ការដឹកជញ្ជុនឆាប់រហ័ស</h5>
+                                <p>ធានានូវសេវាកម្មដឹកជញ្ជូនយ៉ាងទាន់ពេលវេលា​ និងប្រកបដោយប្រសិទ្ធភាព​​ខ្ពស់​</p>
+                            </div>
+                            <div class="box-icon">
+                                <img src="../img/icon/fast-delivery.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="box-img">
+                            <img src="../img/graphic/vegetables-noBG2.png" alt="" data-aos="fade-down" data-aos-duration="1500">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="box" data-aos="fade-left" data-aos-duration="1500">
+                            <div class="box-icon">
+                                <img src="../img/icon/favorites.png" alt="">
+                            </div>
+                            <div class="box-left">
+                                <h5>ផ្តល់ភាពងាយស្រួល</h5>
+                                <p>ផ្តល់ជូននូវវេទិកាអនឡាញដែលអតិថិជនអាចរកមើលផលិតផលកសិកម្ម ដាក់ការបញ្ជាទិញ​បានយ៉ាងងាយស្រួល
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="fade-left" data-aos-duration="1500">
+                            <div class="box-icon">
+                                <img src="../img/icon/cashless-payment.png" alt="">
+                            </div>
+                            <div class="box-left">
+                                <h5>ទំនុកចិត្តនៃការទូទាត់</h5>
+                                <p>ផ្តល់អាទិភាពដល់សុវត្ថិភាពអតិថិជនដោយផ្តល់នូវជម្រើសទូទាត់តាមអ៊ីនធឺណិតប្រកបដោយសុវត្ថិភាព
+                                </p>
+                            </div>
+                        </div>
+                        <div class="box" data-aos="fade-left" data-aos-duration="1500">
+                            <div class="box-icon">
+                                <img src="../img/icon/customer-service.png" alt="">
+                            </div>
+                            <div class="box-left">
+                                <h5>Customer Support 24/7</h5>
+                                <p>ផ្តល់ជូននូវសេវាកម្មឆ្លើយតបដើម្បីដោះស្រាយរាល់ការសាកសួរ កង្វល់
+                                    ឬបញ្ហាបច្ចេកទេសដែលអតិថិជនជួបប្រទះ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="newsletter">
+            <div class="container flex-center center">
+                <div>
+                    <h1 data-aos="fade-left" data-aos-duration="1500">ចុះឈ្មោះសម្រាប់ព្រឹត្តិបត្រព័ត៌មាន</h1>
+                    <form action="#newsletter-pop" class="subscribe" data-aos="fade-right" data-aos-duration="1500">
+                        <input type="email" name="txtEmail" id="newsletter-id" placeholder="Email address"><br>
+                        <button type="button" class="sign-btn" id="newsletter">Subsribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="newsletter-popup" id="newsletter-pop">
+                <div class="cancel-popup" id="no-newletter">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="popup-img">
+                    <img src="../img/icon/newsletter.gif" alt="">
+                </div>
+                <div class="popup-txt">
+                    <h1>សូមស្វាគមន៍មកកាន់សហគមន៍ឌីជីថល <span>GreenChainKH</span></h1>
+                    <p>ចុចប៉ូតុងខាងក្រោមដើម្បីពីនិតមើលប្រអប់សារ</p>
+                    <a href="Homepage.html">
+                        <button type="button" class="btn-back">ចុចទីនេះ</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="quick-link" data-aos="fade-right" data-aos-duration="1500">
+            <div class="container flex-center">
+                <div class="logo-map">
+                    <div class="logo">
+                        <img src="../img/logo/logo.png" alt="">
+                    </div>
+                    <h2>"ដាំដុះអនាគតបៃតងនៃប្រទេសកម្ពុជា"</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15635.736262865381!2d104.88048969786963!3d11.556584482146718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951001c8a7b55%3A0xa95ff42ea192073c!2sANT%20Technology%20Training%20School%202!5e0!3m2!1sen!2skh!4v1714064657449!5m2!1sen!2skh"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="link">
+                    <div class="flex">
+                        <ul>
+                            <p>ក្រុមហ៊ុន</p>
+                            <li><a href="Homepage.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ទំព័រដើម</a></li>
+                            <li><a href="Products-main.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ផលិតផល</a>
+                            </li>
+                            <li><a href="service.html"><i class="fa-solid fa-caret-right"></i>&nbsp;សេវាកម្ម</a></li>
+                            <li><a href="contact-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ជំនួយ</a></li>
+                        </ul>
+                        <ul>
+                            <p>អប់រំ & ព័ត៍មាន</p>
+                            <li><a href="News_blogs.html"><i class="fa-solid fa-caret-right"></i>&nbsp;Blog</a></li>
+                            <li><a href="News_national.html"><i
+                                        class="fa-solid fa-caret-right"></i>&nbsp;ព័ត៍មានជាតិ</a></li>
+                            <li><a href="News_international.html"><i
+                                        class="fa-solid fa-caret-right"></i>&nbsp;ព័ត៍មានអន្តរជាតិ</a></li>
+                            <li><a href="education.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ប្រភពឯកសារ</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <p>ប្រភេទ</p>
+                            <li><a href="Vegetables.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ដំណាំកសិកម្ម</a>
+                            </li>
+                            <li><a href="Equipment.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ឧបករណ៍កសិកម្ម</a>
+                            </li>
+                            <li><a href="fitilizer.html"><i
+                                        class="fa-solid fa-caret-right"></i>&nbsp;ជីប្រើប្រាស់លើដំណាំ</a></li>
+                            <li><a href="Pesticides.html"><i
+                                        class="fa-solid fa-caret-right"></i>&nbsp;ថ្នាំកម្ចាត់សត្វល្អិត</a></li>
+                        </ul>
+                        <ul>
+                            <p>Useful Link</p>
+                            <li><a href="cart.html"><i class="fa-solid fa-caret-right"></i>&nbsp;កន្ត្រក</a></li>
+                            <li><a href="about-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;អំពីយើង</a></li>
+                            <li><a href="contact-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ទំនាក់ទំនង</a>
+                            </li>
+                            <li><a href="faq.html"><i class="fa-solid fa-caret-right"></i>&nbsp;FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-center center gap-20">
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/search.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/facebook.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/telegram.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/twitter.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/youtube.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <p>Copyright GreenChainKH © 2024. All rights reserved</p>
+        </section>
+    </footer>
+    <script src="../js/head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script src="../js/app.js"></script>
+    <script src="../js/product.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

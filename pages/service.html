@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/costum.css">
+    <link rel="stylesheet" href="../css/service.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+    <a href="#" class="scroll-btn" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <header id="headbar">
+        <div class="container">
+            <div class="nav">
+                <div class="head-logo">
+                    <a href="Homepage.html">
+                        <img src="../img/logo/logo.png" alt="">
+                    </a>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="Homepage.html" class="nav-link">
+                                ទំព័រដើម
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Products-main.html" class="nav-link">
+                                ផលិតផល<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="Real-Time.html">Live Stock</a>
+                                    </li>
+                                    <li>
+                                        <a href="rate.html">អត្រាតម្លៃ</a>
+                                    </li>
+                                    <li>
+                                        <a href="Vegetables.html">កសិកម្ម</a>
+                                        <div class="temp"></div>
+                                        <div class="sub-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href="Cereal.html">គ្រាប់ធុញ្ញជាតិ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Vegetables.html">បន្លែ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Fruit.html">ផ្លែឈើ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="Equipment.html">ក្រុមហ៊ុន</a>
+                                        <div class="temp"></div>
+                                        <div class="sub-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href="fitilizer.html">ជីគីមី</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Equipment.html">គ្រឿងយន្តកសិកម្ម</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Pesticides.html">ថ្នាំកម្ចាត់សត្វល្អិត</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="service.html" class="nav-link">សេវាកម្ម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="education.html" class="nav-link">អប់រំ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="News.html" class="nav-link">
+                                ព័ត៍មាន<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="News_blogs.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="News_national.html">ជាតិ</a>
+                                    </li>
+                                    <li>
+                                        <a href="News_international.html">អន្តរជាតិ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact-us.html" class="nav-link">ទំនាក់ទំនង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">
+                                អំពីយើង<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="our_mission.html">បេសកម្ម</a>
+                                    </li>
+                                    <li>
+                                        <a href="our_project.html">គម្រោង</a>
+                                    </li>
+                                    <li>
+                                        <a href="our_team.html">ក្រុមការងារ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="head-item">
+                    <div class="language">
+                        <a href="#">ខ្មែរ</a>&nbsp;|&nbsp;
+                        <a href="#" style="color: gray;">En</a>
+                    </div>
+                    <i class="fa-solid fa-magnifying-glass" id="minify"></i>
+                    <i class="fa-sharp fa-solid fa-bell" id="notification"></i>
+                    <a href="cart.html">
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <div class="profile" id="profile">
+                        <img src="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar" id="s-bar">
+            <form action="get" class="flex">
+                <input type="search" name="txtsearch" id="h-search" class="head-search"
+                    placeholder="ស្វែងរកនៅទីនេះ ...">
+                <button type="button" class="sign-btn s-btn">ស្វែងរក</button>
+            </form>
+            <div class="back">
+                <i class="fa-regular fa-x" id="cross"></i>
+            </div>
+        </div>
+        <div class="notification-bar" id="noti-bar">
+            <div class="noti-head">
+                <i class="fa-solid fa-arrow-left" id="noti-back"></i>
+                <h2>Notification</h2>
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+            </div>
+            <div class="noti-body">
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/icon/facebook.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Facebook</a> <span>អ្នកបានភ្ជាប់គណនីជាមួយ </span>Saroth Tola
+                        </h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/icon/search.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Google</a> <span>គណនី </span>Saroth Tola
+                            <span>ត្រូវបានបង្កើតនៅថ្ងៃនេះ</span></h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/logo-notxt.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">GreenChainKH</a> <span>ស្វាគមន៍មកកាន់សហគមន៍កសិកម្មឌីជីថល </span>
+                            GreenChainKH</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/grab.jpg" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Grab</a> <span>តាមដានទំនិញរបស់លោកអ្នក</span> ឥលូវនេះ</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/logo-notxt.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">GreenChainKH</a> <span>ការបញ្ចុះតម្លៃពិសេស 10% រហូតដល់​
+                            </span>ថ្ងៃទី ២៥ ខែមេសា​ ឆ្នាំ២០២៤</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-bar" id="profile-bar">
+            <div class="profile-head">
+                <div class="profile-img">
+                    <img src="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" alt="">
+                </div>
+                <h2>Saroth Tola</h2>
+                <i class="fa-solid fa-arrow-right" id="exit-user"></i>
+            </div>
+            <div class="profile-body">
+                <ul>
+                    <li>
+                        <a href="user-profile.html"><i class="fa-solid fa-pen-to-square"></i>Edit Profile</a>
+                    </li>
+                    <li>
+                        <a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i>Cart</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-gear"></i>Preference</a>
+                    </li>
+                    <li>
+                        <a href="faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-heart"></i>Favorite</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html"><i class="fa-solid fa-circle-info"></i>Private Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile-footer">
+                <a href="../index.html">
+                    <button type="button" class="sign-out-btn">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Sign out
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="hero-banner">
+        <img src="../img/background/Service.png" alt="" class="hero-background" />
+        <div class="hero-content">
+            <div class="hero-text">
+                <span>
+                    <a href="#">សេវាកម្ម</a> /
+                    <a href="#" class="active">អំពីយើង</a>
+                </span>
+                <h1>សេវាកម្ម</h1>
+                <button type="button" class="btn">
+                    <a href="#about-us-section">មើលបន្ថែម</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="service-offer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="content">
+                        <div class="heading">
+                            <img src="" alt="">
+                            <span class="heading-span">អ្វីដែលយើងផ្តល់ជូន</span>
+                        </div>
+                        <div class="text">
+                            <h1>កសិកម្មកាន់តែប្រសើរ ដើម្បីអនាគតកាន់តែប្រសើរ</h1>
+                            <p>សេវាកម្មរបស់យើង គឺមានលក់ផលិតផលកសិកម្មគ្រប់ប្រភេទ ដូចជា ជី គ្រាប់ពូជ ស្រូវ​ បន្លែ ផ្លែឈើ
+                                គ្រឿងយន្តកសិកម្ម ជាដើម ។
+                                ក៏ដូចជាជួយផ្សព្វផ្សាយផលិតផលរបស់កសិករដែលបានដាក់លក់នៅលើគេហទំព័ររបស់យើង ។
+                                ហើយពួកយើងថែមទាំងផ្តល់ព័ត៍មាន និងចំណេះដឹងផ្សេងៗដែលទាក់ទងទៅនឹងកសិកម្ម
+                                វិធីដាំដុះផ្សេងៗថែមទៀតផង ។</p>
+                        </div>
+                        <div class="items">
+                            <div class="list-items">
+                                <i class="fa-solid fa-check"></i>
+                                <p class="item-info">
+                                    ទទួលបានផលិតផលដែលមានគុណភាពខ្ពស់
+                                </p>
+                            </div>
+                            <div class="list-items">
+                                <i class="fa-solid fa-check"></i>
+                                <p class="item-info">
+                                    ទទួលបានការបង្ហាត់បង្រៀនពីវិធីប្រើប្រាស់
+                                </p>
+                            </div>
+                            <div class="list-items">
+                                <i class="fa-solid fa-check"></i>
+                                <p class="item-info">
+                                    និងមុខងារពិសេសៗផ្សេងៗបន្ថែមទៀត
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="offer-image">
+                        <img src="../img/Service/farmer.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-card">
+        <div class="container">
+            <h1 class="section-title">សេវាកម្មរបស់យើង</h1>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/card/tractor.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <span>
+                                <img src="../img/Service/tractor.png" alt="">
+                            </span>
+                            <div class="text">
+                                <h4>
+                                    <a href="service-detail.html">ផ្សព្វផ្សាយផលិតផលក្នុងស្រុក</a>
+                                </h4>
+                                <p>
+                                    ផលិតផលកសិកម្ម មានគុណភាពខ្ពស់​ ល្អព្រមទាំងទទួលស្គាល់ពីប្រទេសល្បីៗជុំវិញពិភពលោក។
+                                </p>
+                            </div>
+                            <div class="btn-readmore">
+                                <button>
+                                    <a href="service-detail.html">អានបន្ថែម</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/card/organic.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <span>
+                                <img src="../img/Service/ecology.png" alt="">
+                            </span>
+                            <div class="text">
+                                <h4>
+                                    <a href="service-detail.html">ផ្តល់នូវបច្ចេកទេសកសិកម្ម</a>
+                                </h4>
+                                <p>
+                                    ផលិតផលសរីរាង្គ មានគុណភាពខ្ពស់​ ល្អព្រមទាំងទទួលស្គាល់ពីប្រទេសល្បីៗជុំវិញពិភពលោក។
+                                </p>
+                            </div>
+                            <div class="btn-readmore">
+                                <button>
+                                    <a href="service-detail.html">អានបន្ថែម</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/card/vegatables.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <span>
+                                <img src="../img/Service/vegatables2.png" alt="">
+                            </span>
+                            <div class="text">
+                                <h4>
+                                    <a href="service-detail.html">ផ្គត់ផ្គង់កសិផលធម្មជាតិ</a>
+                                </h4>
+                                <p>
+                                    បន្លែផ្លែឈើស្រស់ មានគុណភាពខ្ពស់​ ល្អព្រមទាំងទទួលស្គាល់ពីប្រទេសល្បីៗជុំវិញពិភពលោក។
+                                </p>
+                            </div>
+                            <div class="btn-readmore">
+                                <button>
+                                    <a href="service-detail.html">អានបន្ថែម</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/card/dairy.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <span>
+                                <img src="../img/Service/milk.png" alt="">
+                            </span>
+                            <div class="text">
+                                <h4>
+                                    <a href="service-detail.html">ផ្គត់ផ្គង់ផលិតផលកសិកម្ម</a>
+                                </h4>
+                                <p>
+                                    ផលិតផល​ទឹកដោះគោ មានគុណភាពខ្ពស់​ ល្អព្រមទាំងទទួលស្គាល់ពីប្រទេសល្បីៗជុំវិញពិភពលោក។
+                                </p>
+                            </div>
+                            <div class="btn-readmore">
+                                <button>
+                                    <a href="service-detail.html">អានបន្ថែម</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <h1 class="section-title">ផលិតផលល្អបំផុតនៅលើពិភពលោក</h1>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/tractor2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="text">
+                                <h4>គ្រឿងយន្តកសិកម្មទំនើប
+                                </h4>
+                                <p>
+                                    ផលិតផលទំនើបនាំចូលពីប្រទេសល្បីៗ មានគុណភាពខ្ពស់​ ។
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/wheat.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="text">
+                                <h4>
+                                    ស្រូវល្អបំផុត
+                                </h4>
+                                <p>
+                                    ស្រូវមានគុណភាពល្អបំផុត ទទួលស្គាល់ពីប្រទេសជុំវិញពិភពលោក​​។
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/groceries.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="text">
+                                <h4>
+                                    បន្លែ និង​ ផ្លែឈើស្រស់
+                                </h4>
+                                <p>
+                                    បន្លែ និង​ ផ្លែឈើមានការយកចិត្តទុកដាក់ខ្ពស់ក្នុងការដាំដុះ​ ។
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/seeding.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="text">
+                                <h4>
+                                    ជី និង​ គ្រាប់ពូជ
+                                </h4>
+                                <p>
+                                    ជី​ និង គ្រាប់ពូជមានគុណភាពខ្ពស់ ឆាប់រហ័សទទួលបានផល ។
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/cow.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="text">
+                                <h4>
+                                    កសិដ្ឋានចិញ្ចឹមសត្វ
+                                </h4>
+                                <p>
+                                    កសិដ្ឋានស្តង់ដារពិភពលោក សត្វពុំមានជំងឺផ្សេងៗ ។
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="../img/Service/park.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="text">
+                                <h4>
+                                    សួនច្បារ
+                                </h4>
+                                <p>
+                                    សួនច្បារមានទីធ្លាធំទូលាយ សម្រាប់ធ្វើកសិកម្ម​​​ ។
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="product-btn">
+                <button>
+                    <a href="#">ផលិតផលទាំងអស់</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="newsletter">
+            <div class="container flex-center center">
+                <div>
+                    <h1>ចុះឈ្មោះសម្រាប់ព្រឹត្តិបត្រព័ត៌មាន</h1>
+                    <form action="#newsletter-pop" class="subscribe">
+                        <input type="email" name="txtEmail" id="newsletter-id" placeholder="Email address"><br>
+                        <button type="button" class="sign-btn" id="newsletter">Subsribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="newsletter-popup" id="newsletter-pop">
+                <div class="cancel-popup" id="no-newletter">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="popup-img">
+                    <img src="../img/icon/newsletter.gif" alt="">
+                </div>
+                <div class="popup-txt">
+                    <h1>សូមស្វាគមន៍មកកាន់សហគមន៍ឌីជីថល <span>GreenChainKH</span></h1>
+                    <p>ចុចប៉ូតុងខាងក្រោមដើម្បីពីនិតមើលប្រអប់សារ</p>
+                    <a href="Homepage.html">
+                        <button type="button" class="btn-back">ចុចទីនេះ</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="quick-link">
+            <div class="container flex-center">
+                <div class="logo-map">
+                    <div class="logo">
+                        <img src="../img/logo/logo.png" alt="">
+                    </div>
+                    <h2>"ដាំដុះអនាគតបៃតងនៃប្រទេសកម្ពុជា"</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15635.736262865381!2d104.88048969786963!3d11.556584482146718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951001c8a7b55%3A0xa95ff42ea192073c!2sANT%20Technology%20Training%20School%202!5e0!3m2!1sen!2skh!4v1714064657449!5m2!1sen!2skh"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="link">
+                    <div class="flex">
+                        <ul>
+                            <p>ក្រុមហ៊ុន</p>
+                            <li><a href="Homepage.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ទំព័រដើម</a></li>
+                            <li><a href="Products-main.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ផលិតផល</a></li>
+                            <li><a href="service.html"><i class="fa-solid fa-caret-right"></i>&nbsp;សេវាកម្ម</a></li>
+                            <li><a href="contact-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ជំនួយ</a></li>
+                        </ul>
+                        <ul>
+                            <p>អប់រំ & ព័ត៍មាន</p>
+                            <li><a href="News_blogs.html"><i class="fa-solid fa-caret-right"></i>&nbsp;Blog</a></li>
+                            <li><a href="News_national.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ព័ត៍មានជាតិ</a></li>
+                            <li><a href="News_international.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ព័ត៍មានអន្តរជាតិ</a></li>
+                            <li><a href="education.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ប្រភពឯកសារ</a></li>
+                        </ul>
+                        <ul>
+                            <p>ប្រភេទ</p>
+                            <li><a href="Vegetables.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ដំណាំកសិកម្ម</a></li>
+                            <li><a href="Equipment.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ឧបករណ៍កសិកម្ម</a></li>
+                            <li><a href="fitilizer.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ជីប្រើប្រាស់លើដំណាំ</a></li>
+                            <li><a href="Pesticides.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ថ្នាំកម្ចាត់សត្វល្អិត</a></li>
+                        </ul>
+                        <ul>
+                            <p>Useful Link</p>
+                            <li><a href="cart.html"><i class="fa-solid fa-caret-right"></i>&nbsp;កន្ត្រក</a></li>
+                            <li><a href="about-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;អំពីយើង</a></li>
+                            <li><a href="contact-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ទំនាក់ទំនង</a></li>
+                            <li><a href="faq.html"><i class="fa-solid fa-caret-right"></i>&nbsp;FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-center center gap-20">
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/search.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/facebook.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/telegram.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/twitter.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/youtube.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <p>Copyright GreenChainKH © 2024. All rights reserved</p>
+        </section>
+    </footer>
+    <script src="../js/head.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

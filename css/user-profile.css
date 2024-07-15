@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.col-8{
+    width: 75%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-4{
+    width: calc(100%/3);
+}
+
+.user-profile{
+    width: 100%;
+    height: 100vh;
+}
+
+.side-profile{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(24, 99, 24);
+    padding: 20px 40px;
+    text-align: center;
+    display: block;
+}
+
+.side-profile .profile-image img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.side-profile .edit-profile{
+    margin: 40px 0;
+}
+
+.side-profile input[type="file"]{
+    display: none;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.side-profile label{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(45, 217, 45);
+    padding: 10px 18px;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.side-profile .status-profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.status-profile p{
+    font-size: 18px;
+    color: #fff;
+}
+
+.status-profile span{
+    color: rgb(45, 217, 45);
+    font-size: 12px;
+}
+
+.profile-info{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.profile-info span{
+    color: white;
+    margin: 8px 0;
+}
+
+.profile-info span i{
+    color: rgb(45, 217, 45);
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.last-visited p{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.last-visited img{
+    display: block;
+    width: 400px;
+    height: 120px;
+    object-fit: cover;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.user-profile .user-information{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.user-information .heading{
+    padding-top: 40px;
+}
+
+.user-information #form-info{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.user-information .mb-3{
+    margin-bottom: 1rem;
+}
+
+.user-information .form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.user-information .gender{
+    margin-bottom: 13px;
+    font-weight: 500;
+}
+
+.user-information .checkbox-gender{
+    width: 80%;
+    height: 45px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.user-information .checkbox-gender label{
+    color: white;
+}
+
+.user-information .checkbox-gender input[type="checkbox"]{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.user-information .form-group label{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.user-information .form-control{
+    width: 80%;
+    height: 45px;
+    padding: 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: green;
+    margin-bottom: 44px;
+    color: white;
+    font-size: 18px;
+}
+.user-information .form-control:focus{
+    outline: none;
+}
+
+.user-information .form-control::placeholder{
+    color: white;
+}
+
+.user-information .btn{
+    display: flex;
+    justify-content: start;
+    gap: 200px;
+
+}
+
+.user-information .log-out{
+    display: block;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 18px;
+    border-radius: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.user-information .save{
+    width: 150px;
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 10px 18px;
+    border-radius: 15px;
+    font-size: 16px;
+    text-align: center;
+}

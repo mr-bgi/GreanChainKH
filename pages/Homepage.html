@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/Landing.css">
+    <link rel="stylesheet" href="../css/Homepage.css">
+    <link rel="stylesheet" href="../css/Products.css">
+    <link rel="stylesheet" href="../css/costum.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <a href="#" class="scroll-btn" id="scroll-up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <header id="headbar">
+        <div class="container" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">
+            <div class="nav">
+                <div class="head-logo">
+                    <a href="Homepage.html">
+                        <img src="../img/logo/logo.png" alt="">
+                    </a>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="Homepage.html" class="nav-link">
+                                ទំព័រដើម
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Products-main.html" class="nav-link">
+                                ផលិតផល<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="Real-Time.html">Live Stock</a>
+                                    </li>
+                                    <li>
+                                        <a href="rate.html">អត្រាតម្លៃ</a>
+                                    </li>
+                                    <li>
+                                        <a href="Vegetables.html">កសិកម្ម</a>
+                                        <div class="temp"></div>
+                                        <div class="sub-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href="Cereal.html">គ្រាប់ធុញ្ញជាតិ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Vegetables.html">បន្លែ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Fruit.html">ផ្លែឈើ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="Equipment.html">ក្រុមហ៊ុន</a>
+                                        <div class="temp"></div>
+                                        <div class="sub-dropdown">
+                                            <ul>
+                                                <li>
+                                                    <a href="fitilizer.html">ជីគីមី</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Equipment.html">គ្រឿងយន្តកសិកម្ម</a>
+                                                </li>
+                                                <li>
+                                                    <a href="Pesticides.html">ថ្នាំកម្ចាត់សត្វល្អិត</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="service.html" class="nav-link">សេវាកម្ម</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="education.html" class="nav-link">អប់រំ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="News.html" class="nav-link">
+                                ព័ត៍មាន<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="News_blogs.html">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="News_national.html">ជាតិ</a>
+                                    </li>
+                                    <li>
+                                        <a href="News_international.html">អន្តរជាតិ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact-us.html" class="nav-link">ទំនាក់ទំនង</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">
+                                អំពីយើង<i class="fa-solid fa-caret-down"></i>
+                            </a>
+                            <div class="drop-menu">
+                                <ul>
+                                    <li>
+                                        <a href="our_mission.html">បេសកម្ម</a>
+                                    </li>
+                                    <li>
+                                        <a href="our_project.html">គម្រោង</a>
+                                    </li>
+                                    <li>
+                                        <a href="our_team.html">ក្រុមការងារ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="head-item">
+                    <div class="language">
+                        <a href="#">ខ្មែរ</a>&nbsp;|&nbsp;
+                        <a href="#" style="color: gray;">En</a>
+                    </div>
+                    <i class="fa-solid fa-magnifying-glass" id="minify"></i>
+                    <i class="fa-sharp fa-solid fa-bell" id="notification"></i>
+                    <a href="cart.html">
+                        <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                    </a>
+                    <div class="profile" id="profile">
+                        <img src="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-bar" id="s-bar">
+            <form action="get" class="flex">
+                <input type="search" name="txtsearch" id="h-search" class="head-search"
+                    placeholder="ស្វែងរកនៅទីនេះ ...">
+                <button type="button" class="sign-btn s-btn">ស្វែងរក</button>
+            </form>
+            <div class="back">
+                <i class="fa-regular fa-x" id="cross"></i>
+            </div>
+        </div>
+        <div class="notification-bar" id="noti-bar">
+            <div class="noti-head">
+                <i class="fa-solid fa-arrow-left" id="noti-back"></i>
+                <h2>Notification</h2>
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+            </div>
+            <div class="noti-body">
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/icon/facebook.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Facebook</a> <span>អ្នកបានភ្ជាប់គណនីជាមួយ </span>Saroth Tola</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/icon/search.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Google</a> <span>គណនី </span>Saroth Tola <span>ត្រូវបានបង្កើតនៅថ្ងៃនេះ</span></h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/logo-notxt.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">GreenChainKH</a> <span>ស្វាគមន៍មកកាន់សហគមន៍កសិកម្មឌីជីថល </span> GreenChainKH</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/grab.jpg" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">Grab</a> <span>តាមដានទំនិញរបស់លោកអ្នក</span> ឥលូវនេះ</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+                <div class="noti-row">
+                    <div class="noti-pro-img">
+                        <img src="../img/logo/logo-notxt.png" alt="">
+                    </div>
+                    <div class="noti-mail">
+                        <h3><a href="user-profile.html">GreenChainKH</a> <span>ការបញ្ចុះតម្លៃពិសេស 10% រហូតដល់​ </span>ថ្ងៃទី ២៥ ខែមេសា​ ឆ្នាំ២០២៤</h3>
+                        <p>50 minute ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-bar" id="profile-bar">
+            <div class="profile-head">
+                <div class="profile-img">
+                    <img src="https://i.pinimg.com/564x/a8/0e/36/a80e3690318c08114011145fdcfa3ddb.jpg" alt="">
+                </div>
+                <h2>Saroth Tola</h2>
+                <i class="fa-solid fa-arrow-right" id="exit-user"></i>
+            </div>
+            <div class="profile-body">
+                <ul>
+                    <li>
+                        <a href="user-profile.html"><i class="fa-solid fa-pen-to-square"></i>Edit Profile</a>
+                    </li>
+                    <li>
+                        <a href="cart.html"><i class="fa-sharp fa-solid fa-cart-shopping"></i>Cart</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-gear"></i>Preference</a>
+                    </li>
+                    <li>
+                        <a href="faq.html"><i class="fa-solid fa-circle-question"></i> FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-heart"></i>Favorite</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html"><i class="fa-solid fa-circle-info"></i>Private Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile-footer">
+                <a href="../index.html">
+                    <button type="button" class="sign-out-btn">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        Sign out
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero-banner">
+            <!-- <img src="../img/rice_crop1.jpg" alt=""> -->
+            <div class="container">
+                <div class="text-contain">
+                    <div class="text" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1500">
+                        <h1>Welcome to GreenChainKH</h1>
+                        <p>គេហទំព័រ GreenChainKH ត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ ២០២៤ ដែលជាមាតិការរួមមួយ
+                            ពាក់ព័ន្ធនឹងវិស័យកសិកម្ម។គេហទំព័រនេះ នឹងជួយសម្រួលដល់ប្រជាកសិករក្នុងការ ស្វែងរកចំណេះដឹង ជំនាញ
+                            បច្ចេកទេសកសិកម្មផ្សេងៗ ហើយប្រជាកសិករក៏អាចស្វែងរកទិញនូវ គ្រាប់ពូជ ជីប្រើប្រាស់លើដំណាំ និង
+                            សម្ភារៈកសិកម្មប្រកបដោយគុណភាពខ្ពស់ថែមទៀតផង។</p>
+                        <a href="#">
+                            <button type="button" class="discover-btn">
+                                ស្វែងយល់បន្ថែម
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="ads-contain">
+                    <div class="ads" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">
+                        <div class="ads-img">
+                            <img src="../img/graphic/vegetables-noBG3.png" alt="">
+                        </div>
+                        <div class="ads-detail">
+                            <h3>ទិន្នផលកសិកម្ម</h3>
+                            <p>ប្រមូលផ្តុំទីផ្សារកសិផលខ្មែរ​មកពីគ្រប់ខេត្តក្រុង</p>
+                            <a href="Vegetables.html">
+                                <button type="button" class="btn-view">ស្វែងរកបន្ថែម</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ads" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">
+                        <div class="ads-img">
+                            <img src="../img/graphic/fitilizer-noBG.png" alt="">
+                        </div>
+                        <div class="ads-detail">
+                            <h3>ជីកសិកម្ម</h3>
+                            <p>ប្រមូលផ្តុំទីផ្សារកសិផលខ្មែរ​មកពីគ្រប់ខេត្តក្រុង</p>
+                            <a href="fitilizer.html">
+                                <button type="button" class="btn-view">ស្វែងរកបន្ថែម</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ads" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1500">
+                        <div class="ads-img">
+                            <img src="../img/graphic/tractor.png" alt="">
+                        </div>
+                        <div class="ads-detail">
+                            <h3>គ្រឿងយន្តកសិកម្ម</h3>
+                            <p>ប្រមូលផ្តុំទីផ្សារកសិផលខ្មែរ​មកពីគ្រប់ខេត្តក្រុង</p>
+                            <a href="Equipment.html">
+                                <button type="button" class="btn-view">ស្វែងរកបន្ថែម</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="feature">
+            <div class="container">
+                <div>
+                    <div class="feature-head">
+                        <h3 data-aos="fade-left"  data-aos-duration="1500"> GreenChainKH</h3>
+                        <h1 data-aos="fade-right"  data-aos-duration="1500">ហេតុអ្វីត្រូវជ្រើសរើសគេហទំព័រនេះ?</h1>
+                        <p data-aos="fade-left"  data-aos-duration="1500">GreenChainKH ជាមាតិការកសិកម្មក្នុងស្រុកមួយដែលមានមុខងារ ដូចជា</p>
+                    </div>
+                    <div class="feature-container flex">
+                        <div class="feature-card"data-aos="fade-up" data-aos-duration="1500">
+                            <img src="../img/our-project/fruit1.jpg" alt="">
+                            <div class="overlay"></div>
+                            <div class="feature-text">
+                                <div>
+                                    <h1>ទីផ្សារទិន្នផលកសិកម្មក្នុងស្រុក</h1>
+                                    <p>
+                                        ទីផ្សារកសិផលធម្មជាតិរបស់ប្រជាកសិករខ្មែរមកពីគ្រប់បណ្តាខេត្តនានានៃប្រទេសកម្ពុជា
+                                    </p>
+                                    <a href="Products-main.html">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="num">
+                                <p>01.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card" data-aos="fade-up"  data-aos-duration="1500">
+                            <img src="../img/our-project/fitilizer1.jpg" alt="">
+                            <div class="overlay"></div>
+                            <div class="feature-text">
+                                <div>
+                                    <h1>ផលិតផលកសិកម្មគុណភាពខ្ពស់</h1>
+                                    <p>
+                                        ផ្គត់ផ្គង់នូវផលិតផលកសិកម្មគ្រប់ប្រភេទទៅតាមតម្រូវការរបស់ប្រជាកសិករប្រកបដោយគុណភាព។
+                                    </p>
+                                    <a href="Products-main.html">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="num">
+                                <p>02.</p>
+                            </div>
+                        </div>
+                        <div class="feature-card" data-aos="fade-up"  data-aos-duration="1500">
+                            <img src="../img/our-project/contract.webp" alt="">
+                            <div class="overlay"></div>
+                            <div class="feature-text">
+                                <div>
+                                    <h1>សេវាកម្មកសិកម្មសម្បូរបែប</h1>
+                                    <p>
+                                        សេវាកម្មផ្គត់ផ្គង់កសិផលតាមបណ្តាទីផ្សា រោងចក្រឧស្សាហកម្មុ​ បច្ចេកទេសដាំដុះ និង ផ្សព្វផ្សាយកសិផលក្នុងស្រុក។
+                                    </p>
+                                    <a href="service.html">
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="num">
+                                <p>03.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sample-product">
+            <div class="container-fluid">
+                <h3 data-aos="fade-left"  data-aos-duration="1500">GreenChainKH</h3>
+                <h1 data-aos="fade-right"  data-aos-duration="1500">ផលិតផលកសិកម្ម</h1>
+                <div class="flex-center center">
+                    <div class="product-decore" data-aos="fade-right"  data-aos-duration="1500">
+                        <img src="../img/graphic/farmer-1.png" alt="">
+                        <div class="msg-box">
+                            <h2> <span id="type-text"></span></h2>
+                        </div>
+                    </div>
+                    <div class="product-slide" data-aos="fade-left" data-aos-duration="1500" >
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/vegetables/big-pepper.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ផ្លែប៉េងប៉ោះ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/vegetables/Khatna.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ផ្លែប៉េងប៉ោះ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/Fruits/passion.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ផ្លែផាសិន</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/Fruits/rich.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ផ្លែមៀន</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/cereal/green-bean.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>សណ្តែកសៀង</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/cereal/soy_bean.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>សណ្តែកបាយ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/cereal/green-bean.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>សណ្តែកសៀង</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                    <div class="product-card">
+                                        <a href="../pages/Products-main.html" class="card-see-more">ច្រើនទៀត</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sample-product">
+            <div class="container-fluid">
+                <h3 data-aos="fade-left"  data-aos-duration="1500">GreenChainKH</h3>
+                <h1 data-aos="fade-right"  data-aos-duration="1500">ឧបករណ៍កសិកម្ម</h1>
+                <div class="flex-center center">
+                    <div class="product-decore" data-aos="fade-right"  data-aos-duration="1500">
+                        <img src="../img/graphic/farmer.png" alt="">
+                        <div class="msg-box">
+                            <h2> <span id="type-text2"></span></h2>
+                        </div>
+                    </div>
+                    <div class="product-slide" data-aos="fade-left"  data-aos-duration="1500">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/tools/drone-ksk.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ដ្រូនបាញ់ថ្នាំ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/tools/pump-sprayer-1.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ម៉ាស៊ីនបាញថ្នាំ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/tools/crush-cutter.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ម៉ាស៊ីនកាត់ស្មៅ
+                                                    </h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/tools/grass-cutter.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ម៉ាស៊ីនកាត់ស្មៅ</h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product-card">
+                                        <div class="card-img">
+                                            <a href="#">
+                                                <img src="../img/products/tools/hand-sprayer.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="pro-card-detail">
+                                            <div class="card-detail-text">
+                                                <a href="#" class="black">
+                                                    <h2>ម៉ាស៊ីនកាត់ស្មៅ
+                                                    </h2>
+                                                </a>
+                                                <p><span>1.35$/kg</span>&nbsp;&nbsp;<del>1.5$</del></p>
+                                                <div class="number-control">
+                                                    <div class="number-left"></div>
+                                                    <input type="number" name="number" class="number-quantity" min="1"
+                                                        placeholder="1 kg">
+                                                    <div class="number-right"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pro-item">
+                                            <i class="fa-regular fa-heart" id="fav"></i>
+                                            <a href="AgriProduct_Detail.html" class="black">
+                                                <i class="fa-solid fa-circle-info"></i>
+                                            </a>
+                                            <i class="fa-sharp fa-solid fa-cart-shopping" id="cart-click"></i>
+
+                                        </div>
+
+                                        <div class="new">New</div>
+                                    </div>
+                                    <div class="product-card">
+                                        <a href="../pages/Products-main.html" class="card-see-more">ច្រើនទៀត</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="land-project">
+            <div class="container">
+                <h3 data-aos="fade-left"  data-aos-duration="1500">GreenChainKH</h3>
+                <h1 data-aos="fade-right"  data-aos-duration="1500">គម្រោងរបស់យើង</h1>
+                <div class="swiper mySwiper" data-aos="fade-left"  data-aos-duration="1500">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="pro-card">
+                                <img src="../img/our-project/project4.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pro-card">
+                                <img src="../img/our-project/fruit3.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pro-card">
+                                <img src="../img/our-project/project2.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="pro-card">
+                                <img src="../img/our-project/project4.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pro-card">
+                                <img src="../img/our-project/fruit3.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pro-card">
+                                <img src="../img/our-project/project2.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="pro-card">
+                                <img src="../img/our-project/fruit1.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pro-card">
+                                <img src="../img/our-project/fruit3.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="pro-card">
+                                <img src="../img/our-project/project2.jpg" alt="">
+                                <div class="pro-detail">
+                                    <h1>ជម្រុញអភិវឌ្ឍកសិកម្មក្នុងស្រុក</h1>
+                                    <a href="our_project.html">
+                                        <i class="fa-solid fa-arrow-right-long"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+        </section>
+        <section class="land-news">
+            <div class="container">
+                <h3 data-aos="fade-left"  data-aos-duration="1500">GreenChainKH</h3>
+                <h1 data-aos="fade-right"  data-aos-duration="1500">អត្ថបទព័ត៌មានថ្មីៗ"</h1>
+                <div class="news-contain flex-center between">
+                    <div class="news-card" data-aos="fade-left"  data-aos-duration="1500">
+                        <div class="news-img">
+                            <img src="../img/news/land-1.jpg" alt="">
+                        </div>
+                        <div class="news-text">
+                            <a href="user-profile.html" class="flex-center left">
+                                <div class="news-profile">
+                                    <img src="https://i.pinimg.com/564x/20/c0/0f/20c00f0f135c950096a54b7b465e45cc.jpg" alt="">
+                                </div>
+                                <h5>មាស​ រចនា</h5>
+                            </a>
+                            <a href="Blog_Detail.html" class="black">
+                                <h1>ការសិក្សាថ្មីបង្ហាញពីវិធីសាស្រ្តធ្វើកសិកម្មសរីរាង្គ បង្កើនសុខភាពដី និងដំណាំ</h1>
+                            </a>
+                            <p>
+                                ការសិក្សាស្រាវជ្រាវមួយដែលធ្វើឡើងដោយអ្នកស្រាវជ្រាវកសិកម្មឈានមុខគេបង្ហាញថា...
+                            </p>
+                            <a href="News_blogs.html">
+                                <button type="button" class="sign-btn register">អានបន្ថែម</button>
+                            </a>
+                        </div>
+                        <div class="news-date">
+                            <h2>08 <br>Feb</h2>
+                        </div>
+                    </div>
+                    <div class="news-card" data-aos="fade-left"  data-aos-duration="1500">
+                        <div class="news-img">
+                            <img src="../img/news/land-2.jpg" alt="">
+                        </div>
+                        <div class="news-text">
+                            <a href="user-profile.html" class="flex-center left">
+                                <div class="news-profile">
+                                    <img src="https://i.pinimg.com/564x/20/c0/0f/20c00f0f135c950096a54b7b465e45cc.jpg"
+                                        alt="">
+                                </div>
+                                <h5>មាស​ រចនា</h5>
+                            </a>
+                            <a href="Blog_Detail.html" class="black">
+                                <h1>ការសិក្សាថ្មីបង្ហាញពីវិធីសាស្រ្តធ្វើកសិកម្មសរីរាង្គ បង្កើនសុខភាពដី និងដំណាំ</h1>
+                            </a>
+                            <p>
+                                ការសិក្សាស្រាវជ្រាវមួយដែលធ្វើឡើងដោយអ្នកស្រាវជ្រាវកសិកម្មឈានមុខគេបង្ហាញថា...
+                            </p>
+                            <a href="News_blogs.html">
+                                <button type="button" class="sign-btn register">អានបន្ថែម</button>
+                            </a>
+                        </div>
+                        <div class="news-date">
+                            <h2>10 <br>Mar</h2>
+                        </div>
+                    </div>
+                    <div class="news-card" data-aos="fade-left"  data-aos-duration="1500">
+                        <div class="news-img">
+                            <img src="../img/news/land-3.jpg" alt="">
+                        </div>
+                        <div class="news-text">
+                            <a href="user-profile.html" class="flex-center left">
+                                <div class="news-profile">
+                                    <img src="https://i.pinimg.com/564x/20/c0/0f/20c00f0f135c950096a54b7b465e45cc.jpg"
+                                        alt="">
+                                </div>
+                                <h5>មាស​ រចនា</h5>
+                            </a>
+                            <a href="Blog_Detail.html" class="black">
+                                <h1>ការសិក្សាថ្មីបង្ហាញពីវិធីសាស្រ្តធ្វើកសិកម្មសរីរាង្គ បង្កើនសុខភាពដី និងដំណាំ</h1>
+                            </a>
+                            <p>
+                                ការសិក្សាស្រាវជ្រាវមួយដែលធ្វើឡើងដោយអ្នកស្រាវជ្រាវកសិកម្មឈានមុខគេបង្ហាញថា...
+                            </p>
+                            <a href="News_blogs.html">
+                                <button type="button" class="sign-btn register">អានបន្ថែម</button>
+                            </a>
+                        </div>
+                        <div class="news-date">
+                            <h2>09 <br>Apr </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+        <section class="recomment">
+            <h3 data-aos="fade-left"  data-aos-duration="1500">GreenChainKH</h3>
+            <h1 data-aos="fade-right"  data-aos-duration="1500">មតិអ្នកប្រើប្រាស់</h1>
+            <div class="container">
+                <div class="recommend-wrapper">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" data-aos="fade-left"  data-aos-duration="1500">
+                                <div class="testimonial">
+                                    <div class="testimonial-profile">
+                                        <div>
+                                            <div class="profile">
+                                                <img src="../img/icon/ankor-profile.jpg" alt="">
+                                            </div>
+                                            <a href="user-profile.html">
+                                                <div class="name">
+                                                    <h5>ដុំ វណ្ណឌី</h5>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-word">
+                                        <h1>
+                                            "
+                                            បណ្តាញអភិវឌ្ឍន៍នៃការអភិវឌ្ឍគ្រប់គ្រងដើម្បីបង្កើតអច្ឆរិយ៍ខ្ពស់បំផុតសម្រាប់យើង។
+                                            សេវានិងសំណុំរបស់យើងគ្រប់គ្រងដើម្បីបង្កើតជំនាញល្អប្រសើររបស់យើងនិងគណៈនិងការគ្រប់គ្រងសតិនិងធនធានរបស់គណៈកម្មសិទ្ធិរបស់ពួកយើង។
+                                            "
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial">
+                                    <div class="testimonial-profile">
+                                        <div>
+                                            <div class="profile">
+                                                <img src="../img/icon/human-profile.jpg" alt="">
+                                            </div>
+                                            <a href="user-profile.html">
+                                                <div class="name">
+                                                    <h5>ដុំ វណ្ណឌី</h5>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-word">
+                                        <h1>
+                                            "
+                                            បណ្តាញអភិវឌ្ឍន៍នៃការអភិវឌ្ឍគ្រប់គ្រងដើម្បីបង្កើតអច្ឆរិយ៍ខ្ពស់បំផុតសម្រាប់យើង។
+                                            សេវានិងសំណុំរបស់យើងគ្រប់គ្រងដើម្បីបង្កើតជំនាញល្អប្រសើររបស់យើងនិងគណៈនិងការគ្រប់គ្រងសតិនិងធនធានរបស់គណៈកម្មសិទ្ធិរបស់ពួកយើង។
+                                            "
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="testimonial">
+                                    <div class="testimonial-profile">
+                                        <div>
+                                            <div class="profile">
+                                                <img src="../img/icon/farm-profile.jpg" alt="">
+                                            </div>
+                                            <a href="user-profile.html">
+                                                <div class="name">
+                                                    <h5>ដុំ វណ្ណឌី</h5>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="testimonial-word">
+                                        <h1>
+                                            "
+                                            បណ្តាញអភិវឌ្ឍន៍នៃការអភិវឌ្ឍគ្រប់គ្រងដើម្បីបង្កើតអច្ឆរិយ៍ខ្ពស់បំផុតសម្រាប់យើង។
+                                            សេវានិងសំណុំរបស់យើងគ្រប់គ្រងដើម្បីបង្កើតជំនាញល្អប្រសើររបស់យើងនិងគណៈនិងការគ្រប់គ្រងសតិនិងធនធានរបស់គណៈកម្មសិទ្ធិរបស់ពួកយើង។
+                                            "
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="land-contact">
+            <div class="contact">
+                <div class="container flex-center between">
+                    <div class="contact-img flex-center center">
+                        <div class="text-contact" data-aos="fade-right" data-aos-duration="1000">
+                            <h4><i class="fa-solid fa-phone"></i>&nbsp; 0963023405 / 085637282</h4>
+                            <h4><i class="fa-solid fa-envelope"></i>&nbsp; greenchain24@gmail.com.kh</h4>
+                            <h4><i class="fa-brands fa-facebook"></i>&nbsp; GreenChainKH Organic Shop</h4>
+                            <h4><i class="fa-brands fa-instagram"></i>&nbsp; green_chain_24</h4>
+                            <h4><i class="fa-brands fa-telegram"></i>&nbsp; @greenchain24</h4>
+                            <h4><i class="fa-solid fa-location-dot"></i>&nbsp; ផ្ទះលេខ ៨៦បេ ផ្លូវ ៣១៣ កែងនឹងផ្លូវ ៦០៦ សង្កាត់បឹងកក់ ២ ខណ្ឌទួលគោក រាជធានីភ្នំពេញ</h4>
+                        </div>
+                        <div class="layer-2">
+                            <img src="../img/graphic/leaf-1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form action="" method="get" data-aos="fade-right" data-aos-duration="1000">
+                            <input type="text" class="form-control" name="txtName" id="name"
+                                placeholder="គោត្តនាម​ និង​ នាម">
+                            <input type="email" class="form-control" name="txtEmail" id="email" placeholder="អ៊ីម៉េល">
+                            <input type="tel" name="textnum" id="tel" class="form-control" placeholder="លេខទូរសព្ទ">
+                            <div>
+                                <textarea class="form-control" name="textMessage" id="" cols="30" rows="5"
+                                    placeholder="ផ្ញើសារ"></textarea>
+                            </div>
+                            <button type="submit" class="form-btn">យល់ព្រម</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="partner">
+                <h1 data-aos="fade-left" data-aos-duration="1500">ដៃគូសហការណ៍</h1>
+                <div class="container">
+                    <div class="row center gap-50">
+                        <div class="col-2">
+                            <div class="partner-logo" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="../img/logo/grab.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="partner-logo" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="../img/logo/DHL.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="partner-logo" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="../img/logo/LuckMall.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="partner-logo" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="../img/logo/PasarGreen.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="partner-logo" data-aos="fade-right" data-aos-duration="1500">
+                                <img src="../img/logo/butham_express.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="newsletter">
+            <div class="container flex-center center">
+                <div data-aos="fade-right" data-aos-duration="1500">
+                    <h1>ចុះឈ្មោះសម្រាប់ព្រឹត្តិបត្រព័ត៌មាន</h1>
+                    <form action="#newsletter-pop" class="subscribe">
+                        <input type="email" name="txtEmail" id="newsletter-id" placeholder="Email address"><br>
+                        <button type="button" class="sign-btn" id="newsletter">Subsribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="newsletter-popup" id="newsletter-pop">
+                <div class="cancel-popup" id="no-newletter">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="popup-img">
+                    <img src="../img/icon/newsletter.gif" alt="">
+                </div>
+                <div class="popup-txt">
+                    <h1>សូមស្វាគមន៍មកកាន់សហគមន៍ឌីជីថល <span>GreenChainKH</span></h1>
+                    <p>ចុចប៉ូតុងខាងក្រោមដើម្បីពីនិតមើលប្រអប់សារ</p>
+                    <a href="Homepage.html">
+                        <button type="button" class="btn-back">ចុចទីនេះ</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="quick-link" data-aos="fade-left" data-aos-duration="1500">
+            <div class="container flex-center">
+                <div class="logo-map">
+                    <div class="logo">
+                        <img src="../img/logo/logo.png" alt="">
+                    </div>
+                    <h2>"ដាំដុះអនាគតបៃតងនៃប្រទេសកម្ពុជា"</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15635.736262865381!2d104.88048969786963!3d11.556584482146718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951001c8a7b55%3A0xa95ff42ea192073c!2sANT%20Technology%20Training%20School%202!5e0!3m2!1sen!2skh!4v1714064657449!5m2!1sen!2skh"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="link">
+                    <div class="flex">
+                        <ul>
+                            <p>ក្រុមហ៊ុន</p>
+                            <li><a href="Homepage.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ទំព័រដើម</a></li>
+                            <li><a href="Products-main.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ផលិតផល</a></li>
+                            <li><a href="service.html"><i class="fa-solid fa-caret-right"></i>&nbsp;សេវាកម្ម</a></li>
+                            <li><a href="contact-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ជំនួយ</a></li>
+                        </ul>
+                        <ul>
+                            <p>អប់រំ & ព័ត៍មាន</p>
+                            <li><a href="News_blogs.html"><i class="fa-solid fa-caret-right"></i>&nbsp;Blog</a></li>
+                            <li><a href="News_national.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ព័ត៍មានជាតិ</a></li>
+                            <li><a href="News_international.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ព័ត៍មានអន្តរជាតិ</a></li>
+                            <li><a href="education.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ប្រភពឯកសារ</a></li>
+                        </ul>
+                        <ul>
+                            <p>ប្រភេទ</p>
+                            <li><a href="Vegetables.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ដំណាំកសិកម្ម</a></li>
+                            <li><a href="Equipment.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ឧបករណ៍កសិកម្ម</a></li>
+                            <li><a href="fitilizer.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ជីប្រើប្រាស់លើដំណាំ</a></li>
+                            <li><a href="Pesticides.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ថ្នាំកម្ចាត់សត្វល្អិត</a></li>
+                        </ul>
+                        <ul>
+                            <p>Useful Link</p>
+                            <li><a href="cart.html"><i class="fa-solid fa-caret-right"></i>&nbsp;កន្ត្រក</a></li>
+                            <li><a href="about-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;អំពីយើង</a></li>
+                            <li><a href="contact-us.html"><i class="fa-solid fa-caret-right"></i>&nbsp;ទំនាក់ទំនង</a></li>
+                            <li><a href="faq.html"><i class="fa-solid fa-caret-right"></i>&nbsp;FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex-center center gap-20">
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/search.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/facebook.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/telegram.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/twitter.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/youtube.png" alt="">
+                        </a>
+                        <a href="#" class="social-media-icon">
+                            <img src="../img/icon/linkedin.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <p >Copyright GreenChainKH © 2024. All rights reserved</p>
+        </section>
+    </footer>
+    <script src="../js/head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../js/home.js"></script>
+    <script src="../js/product.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

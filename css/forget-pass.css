@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kantumruy Pro", sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/Sign-In/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper .row {
+    display: flex;
+}
+
+.wrapper .col-8{
+    width: 60%;
+}
+
+.wrapper .col-4{
+    width: 40%;
+}
+
+.form {
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.bg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 10px 0 0 10px;
+}
+
+.bg .text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    left: 50px;
+    margin: auto;
+    color: white;
+}
+
+.bg .text h1 {
+    width: 500px;
+    font-size: 38px;
+}
+
+.bg .text h4 {
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.bg .text p {
+    width: 450px;
+    font-size: 22px;
+}
+
+.bg .foot{
+    position: relative;
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.bg .foot::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    top: 15px;
+    left: 10px;
+    background-color: white;
+}
+
+.bg .foot::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    top: 15px;
+    right: 10px;
+    background-color: white;
+}
+
+.forget-pass {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 0 10px 10px 0;
+    padding-top: 40px;
+}
+
+.forget-pass h2 {
+    color:green;
+    font-size: 32px;
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+.forget-pass p{
+    margin: 20px 0;
+    text-align: center;
+    line-height: 25px;
+}
+
+#forget-pass-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forget-pass .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color:green;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.forget-pass .form-group i{
+    margin-left: -40px;
+}
+
+.forget-pass label{
+    margin-bottom: 10px;
+    color: green;
+    font-weight: 500;
+}
+
+.forget-pass input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 10px;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 16px;
+}
+
+.forget-pass button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 50px;
+    transition: 1.2s ease;
+    text-align: center;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 18px;
+}
+
+.forget-pass button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.forget-pass .back-to-login i{
+    color: green;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.forget-pass .back-to-login span a{
+    text-decoration: none;
+    color: green;
+}
+
+.forget-pass .foot{
+    position: relative;
+    margin-top: 35px;
+    font-size: 18px;
+    color: green;
+    text-align: center;
+}
+
+.forget-pass .foot::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    top: 15px;
+    left: 10px;
+    background-color: green;
+}
+
+.forget-pass .foot::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    top: 15px;
+    right: 10px;
+    background-color: green;
+}

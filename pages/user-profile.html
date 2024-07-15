@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/user-profile.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section class="user-profile">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <div class="side-profile" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="profile-image">
+                            <img src="../img/User_Profile/profile.jpg" alt="">
+                        </div>
+                        <div class="edit-profile">
+                            <label for="txtFile">កែប្រែប្រវត្តិរូប</label>
+                            <input type="file" name="file" id="txtFile">
+                        </div>
+                        <div class="status-profile">
+                            <div class="last-visit">
+                                <p>ទស្សនាចុងក្រោយ</p>
+                                <span>3ថ្ងៃមុន</span>
+                            </div>
+                            <div class="place">
+                                <p>ទីតាំង</p>
+                                <span>ប្រទេសកម្ពុជា</span>
+                            </div>
+                        </div>
+                        <div class="profile-info">
+                            <span><i class="fa-solid fa-user"></i>សុខ រិទ្ធាន</span>
+                            <span><i class="fa-solid fa-mars"></i>ប្រុស</span>
+                            <span><i class="fa-regular fa-calendar-days"></i>12 ធ្នូ 2003</span>
+                            <span><i class="fa-solid fa-location-dot"></i>រស់នៅទីក្រុងភ្នំពេញ</span>
+                            <span><i class="fa-solid fa-envelope"></i>sokrithean341@gmail.com</span>
+                            <span><i class="fa-solid fa-phone"></i>+855 85776303</span>
+                            <span><i class="fa-solid fa-calendar-check"></i>បានបង្កើតនៅខែ 4 ឆ្នាំ 2024 </span>
+                        </div>
+                        <div class="last-visited">
+                            <p>បានទស្សនាថ្មីៗនេះ</p>
+                            <img src="../img/User_Profile/recent.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="user-information">
+                        <h1 class="heading" data-aos="fade-left" data-aos-duration="1500">ព័ត៏មាននៃអ្នកប្រើប្រាស់</h1>
+                        <form id="form-info">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">នាមត្រកូល</label>
+                                        <input class="form-control" type="text" name="fname" id="txtfname" placeholder="សុខ">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">លេខទូរស័ព្ទផ្ទាល់ខ្លួន</label>
+                                        <input class="form-control" type="text" name="fname" id="txtfname" placeholder="+855 85776303">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">លេខសម្ងាត់ចាស់*</label>
+                                        <input class="form-control" type="password" name="fname" id="txtfname" placeholder="**********">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">នាម</label>
+                                        <input class="form-control" type="text" name="fname" id="txtfname" placeholder="រិទ្ធាន">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">លេខទូរស័ព្ទការងារ</label>
+                                        <input class="form-control" type="text" name="fname" id="txtfname" placeholder="+855 776303">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">លេខសម្ងាត់ថ្មី*</label>
+                                        <input class="form-control" type="text" name="fname" id="txtfname" placeholder="**********">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4" data-aos="fade-left" data-aos-duration="1500">
+                                    <h3 class="gender">ភេទ</h3>
+                                    <div class="checkbox-gender">
+                                        <input type="checkbox" id="male" value="Male" checked> &nbsp;
+                                        <label for="male">ប្រុស</label> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                        <input type="checkbox" id="female" value="Female"> &nbsp;
+                                        <label for="female">ស្រី</label>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">ថ្ងៃ ខែ ឆ្នាំកំណើត</label>
+                                        <input class="form-control" type="date" name="fname" id="txtfname" placeholder="ភ្នំពេញ, ប្រទេសកម្ពុជា">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">ផ្ទៀងផ្ទាត់លេខសម្ងាត់ថ្មី*</label>
+                                        <input class="form-control" type="password" name="fname" id="txtfname" placeholder="**********">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">អុីម៉ែល</label>
+                                        <input class="form-control" type="email" name="fname" id="txtfname" placeholder="sokrithean341@gmail.com">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="form-group mb-3" data-aos="fade-left" data-aos-duration="1500">
+                                        <label for="txtfname">អាស័យដ្ឋាន</label>
+                                        <input class="form-control" type="text" name="fname" id="txtfname" placeholder="រាជធានីភ្នំពេញ">
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="btn">
+                                        <a class="log-out" href="../pages/Homepage.html">ចាកចេញ</a>
+                                        <a class="save" href="#">កំណត់ការផ្លាស់ប្តូរ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

@@ -1,0 +1,360 @@
+a {
+    color: white;
+}
+
+.hero-news {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/graphic/bg_main_news.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-news-container {
+    width: 100%;
+    height: 500px;
+}
+
+.hero-news-container .news-slide {
+    width: 49.5%;
+    height: 500px;
+}
+
+.hero-news-container .news-slide .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-news-container .news-slide .swiper-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hero-news-container .news-slide .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.hero-news-container .news-slide .swiper-slide img:hover{
+    transform: scale(1.05);
+}
+.hero-news-container .news-slide .hero-text {
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.56);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+    padding: 20px;
+    transition: 1s;
+}
+.slide-from-bottom {
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.slide-from-bottom.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1s, transform 1s;
+}
+
+.hero-news-container .news-slide .hero-text span {
+    font-size: 17px;
+}
+
+.hero-news-container .news-slide .hero-text h2 {
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.hero-item {
+    width: 50%;
+    height: 500px;
+}
+
+.hero-item .hero-item-wrap-1 {
+    width: 100%;
+    height: 49%;
+    background-color: blueviolet;
+}
+
+.hero-item .hero-item-wrap-2 {
+    width: 49.5%;
+    height: 49.5%;
+    background-color: blueviolet;
+}
+
+.hero-item .hero-item-wrap-1,
+.hero-item-wrap-2 {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-item .hero-item-wrap-1 img,
+.hero-item-wrap-2 img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease;
+    object-fit: cover;
+}
+
+.news-txt-box {
+    position: absolute;
+    bottom: -65px;
+    width: 100%;
+    height: 70%;
+    padding: 10px;
+    transition: 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.56);
+    color: white;
+}
+
+.news-txt-box span {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.hero-item .hero-item-wrap-1 .news-txt-box h2 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.hero-item .hero-item-wrap-2 .news-txt-box h2 {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.hero-item .hero-item-wrap-1 .news-txt-box p {
+    font-size: 17px;
+}
+
+.hero-item .hero-item-wrap-2 .news-txt-box p {
+    font-size: 16px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.186);
+}
+
+.hero-item .hero-item-wrap-1:hover .news-txt-box,
+.hero-item-wrap-2:hover .news-txt-box {
+    bottom: 5px;
+}
+
+.hero-item .hero-item-wrap-1:hover img,
+.hero-item-wrap-2:hover img {
+    transform: scale(1.1);
+}
+
+.news-body {
+    width: 100%;
+    height: auto;
+}
+
+.news-body hr {
+    height: 2px;
+    border: none;
+    background-color: orange;
+    margin-bottom: 10px;
+}
+
+.national-news {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/graphic/bg_news_body.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.news-cate {
+    width: 130px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.news-body .sub-news {
+    width: 100%;
+    height: 100vh;
+
+    /* background-color: blue; */
+
+}
+
+.sub-news-wrap {
+    width: 100%;
+    height: 80vh;
+    /* background-color: black; */
+}
+
+.news-body .follower {
+    width: 100%;
+    height: 100vh;
+}
+
+.follower .news-cate,
+hr {
+    background-color: black;
+    color: white;
+}
+
+.follower hr {
+    background-color: black;
+}
+
+.follower-wrapper {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+}
+
+.follower-wrapper .img {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.follower-wrapper .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.follower-wrapper .txt {
+    width: 80%;
+    height: 50px;
+    /* background-color: blueviolet; */
+}
+
+.follower-wrapper .txt a {
+    color: black;
+    font-weight: 600;
+}
+
+.news-box-1 {
+    width: 100%;
+    height: 74vh;
+    /* background-color: blue; */
+}
+
+.news-box-1-img {
+    width: 100%;
+    height: 220px;
+    background-color: rgb(43, 226, 110);
+    overflow: hidden;
+}
+
+.news-box-1-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-box-1-txt {
+    width: 100%;
+    height: 310px;
+    overflow: hidden;
+}
+
+.news-box-1-txt p {
+    color: gray;
+    padding: 10px 0;
+}
+
+.news-box-1-txt h5 {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.news-box-1-txt h4 {
+    font-size: 23px;
+    padding: 10px 0;
+    color: black;
+    transition: 0.3s;
+}
+
+.news-box-1-txt h4:hover {
+    color: #52ba4f;
+}
+
+.news-box-2 {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+.news-box-2-img {
+    width: 130px;
+    height: 100%;
+    background-color: rgb(226, 156, 43);
+    overflow: hidden;
+}
+
+.news-box-2-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-box-2-txt {
+    width: 62%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.news-box-2-txt p {
+    color: gray;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
+.news-box-2-txt h5 {
+    font-weight: 600;
+    font-size: 17px;
+    color: black;
+}
+
+.news-box-2-txt h5:hover {
+    color: #52ba4f;
+}
+
+.ads {
+    width: 100%;
+    height: 300px;
+    margin-top: -70px;
+    overflow: hidden;
+}
+
+.ads img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.see-more {
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: orange;
+    font-weight: 600;
+    font-size: 18px;
+}
